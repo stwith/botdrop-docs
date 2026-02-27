@@ -9,21 +9,21 @@ After granting permissions, BotDrop guides you through 4 steps.
 
 Select which bot framework to install. Tap **INSTALL** next to OpenClaw.
 
-![Choose agent](/botdrop-docs/images/drive/11-choose-agent.png)
+![Choose agent](/botdrop-docs/images/setup/01-choose-agent.png)
 
 BotDrop will automatically set up the environment, verify Node.js, and install OpenClaw. This takes about a minute.
 
-![Installing](/botdrop-docs/images/drive/12-installing.png)
+![Installing](/botdrop-docs/images/setup/02-installing.png)
 
 ## Step 2: Choose Your AI Model
 
 Select an AI provider and enter your API key.
 
-![Choose model](/botdrop-docs/images/drive/13-choose-model.png)
+![Choose model](/botdrop-docs/images/setup/03-choose-model.png)
 
 Tap **SELECT**, search for your provider (e.g. OpenRouter), and enter your API key.
 
-![Enter API key](/botdrop-docs/images/drive/15-api-key-clean.png)
+![Enter API key](/botdrop-docs/images/setup/04-api-key.png)
 
 Supported providers:
 
@@ -41,11 +41,11 @@ Pick a chat platform to talk to your bot. You can connect one or more:
 - [Discord →](/botdrop-docs/channels/discord/)
 - [Feishu →](/botdrop-docs/channels/feishu/)
 
-![Telegram setup](/botdrop-docs/images/drive/16-telegram-empty.png)
+![Telegram setup](/botdrop-docs/images/setup/05-channel-empty.png)
 
 Enter the required credentials and tap **CONNECT & START**.
 
-![Telegram filled](/botdrop-docs/images/drive/17-telegram-filled.png)
+![Telegram filled](/botdrop-docs/images/setup/06-channel-filled.png)
 
 You can also tap **SKIP FOR NOW** and configure channels later.
 
@@ -53,7 +53,7 @@ You can also tap **SKIP FOR NOW** and configure channels later.
 
 Once connected, the dashboard shows your gateway status. Green means running.
 
-![Dashboard](/botdrop-docs/images/drive/18-dashboard.png)
+![Dashboard](/botdrop-docs/images/setup/07-dashboard.png)
 
 From the dashboard you can:
 - Start / Stop / Restart the gateway

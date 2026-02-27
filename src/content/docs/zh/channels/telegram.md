@@ -15,13 +15,13 @@ description: 将 BotDrop Agent 连接到 Telegram。
 
 打开 Telegram，搜索 `@BotFather`，选择带蓝色认证标志的账号。
 
-![搜索 BotFather](/images/telegram/01-search-botfather.png)
+![搜索 BotFather](/botdrop-docs/images/telegram/01-search-botfather.png)
 
 ### 2. 创建新 Bot
 
 给 BotFather 发送 `/newbot`。
 
-![/newbot 命令](/images/telegram/02-newbot-command.png)
+![/newbot 命令](/botdrop-docs/images/telegram/02-newbot-command.png)
 
 按提示操作：
 1. 输入 Bot 的**显示名称**（比如 "BotDrop AI"）
@@ -29,7 +29,7 @@ description: 将 BotDrop Agent 连接到 Telegram。
 
 BotFather 会回复你的 **Bot Token**。**复制保存，后面在 BotDrop 里要用。**
 
-![Bot 创建成功](/images/telegram/03-set-bot-name.png)
+![Bot 创建成功](/botdrop-docs/images/telegram/03-set-bot-name.png)
 
 :::caution
 请妥善保管 Token，不要泄露或公开发布。
@@ -55,11 +55,11 @@ BotDrop 会启动网关并连接 Telegram。
 
 首次联系时，Bot 会发送一个**配对码**。在 BotDrop 中批准配对即可完成连接。
 
-![配对码](/images/telegram/04-open-bot-chat.png)
+![配对码](/botdrop-docs/images/telegram/04-open-bot-chat.png)
 
 配对完成后就可以开始聊天了。
 
-![Bot 回复](/images/telegram/06-pairing-code.png)
+![Bot 回复](/botdrop-docs/images/telegram/06-pairing-code.png)
 
 ---
 

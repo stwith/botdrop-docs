@@ -15,17 +15,17 @@ Two things to do: create a Discord bot on the developer portal, then enter the b
 
 Go to the [Discord Developer Portal](https://discord.com/developers/applications) and click **New Application**.
 
-![New Application](/images/discord/01-new-application.png)
+![New Application](/botdrop-docs/images/discord/01-new-application.png)
 
 Enter a name for your bot (e.g. "BotDrop AI") and click **Create**.
 
-![Create App Dialog](/images/discord/02-create-app-dialog.png)
+![Create App Dialog](/botdrop-docs/images/discord/02-create-app-dialog.png)
 
 ### 2. Get the Bot Token
 
 In the left sidebar, click **Bot**, then click **Reset Token** to generate a new token. **Copy and save this token — you'll need it in BotDrop.**
 
-![Reset Token](/images/discord/03-bot-reset-token.png)
+![Reset Token](/botdrop-docs/images/discord/03-bot-reset-token.png)
 
 :::caution
 Keep your token safe. Don't share it or commit it to public repos.
@@ -41,7 +41,7 @@ Scroll down to **Privileged Gateway Intents** and enable:
 
 Click **Save Changes**.
 
-![Privileged Intents](/images/discord/04-privileged-intents.png)
+![Privileged Intents](/botdrop-docs/images/discord/04-privileged-intents.png)
 
 ### 4. Configure OAuth2 Permissions
 
@@ -51,7 +51,7 @@ Under **Scopes**, check:
 - `bot`
 - `applications.commands`
 
-![OAuth2 Scopes](/images/discord/05-oauth2-scopes.png)
+![OAuth2 Scopes](/botdrop-docs/images/discord/05-oauth2-scopes.png)
 
 Under **Bot Permissions**, check:
 - View Channels
@@ -61,7 +61,7 @@ Under **Bot Permissions**, check:
 - Attach Files
 - Add Reactions
 
-![Bot Permissions](/images/discord/06-bot-permissions.png)
+![Bot Permissions](/botdrop-docs/images/discord/06-bot-permissions.png)
 
 ### 5. Invite the Bot to Your Server
 
@@ -69,15 +69,15 @@ Copy the **Generated URL** at the bottom of the page and open it in your browser
 
 Select the server you want to add the bot to and click **Continue**.
 
-![Select Server](/images/discord/07-authorize-select-server.png)
+![Select Server](/botdrop-docs/images/discord/07-authorize-select-server.png)
 
 Review the permissions and click **Authorize**.
 
-![Authorize](/images/discord/08-authorize-permissions.png)
+![Authorize](/botdrop-docs/images/discord/08-authorize-permissions.png)
 
 The bot will appear in your server's member list.
 
-![Bot Joined](/images/discord/09-bot-joined.png)
+![Bot Joined](/botdrop-docs/images/discord/09-bot-joined.png)
 
 ---
 

@@ -15,13 +15,13 @@ Two things to do: create a Telegram bot via BotFather, then enter the token in B
 
 Open Telegram and search for `@BotFather`. Select the verified account.
 
-![Search BotFather](/images/telegram/01-search-botfather.png)
+![Search BotFather](/botdrop-docs/images/telegram/01-search-botfather.png)
 
 ### 2. Create a New Bot
 
 Send `/newbot` to BotFather.
 
-![/newbot command](/images/telegram/02-newbot-command.png)
+![/newbot command](/botdrop-docs/images/telegram/02-newbot-command.png)
 
 Follow the prompts:
 1. Enter a **display name** for your bot (e.g. "BotDrop AI")
@@ -29,7 +29,7 @@ Follow the prompts:
 
 BotFather will respond with your **bot token**. **Copy and save it — you'll need it in BotDrop.**
 
-![Bot created with token](/images/telegram/03-set-bot-name.png)
+![Bot created with token](/botdrop-docs/images/telegram/03-set-bot-name.png)
 
 :::caution
 Keep your token safe. Don't share it or post it publicly.
@@ -55,11 +55,11 @@ Open the bot chat in Telegram (click the link BotFather gave you, or search for 
 
 The bot will send a **pairing code** on first contact. Approve it in BotDrop to complete the connection.
 
-![Pairing code](/images/telegram/04-open-bot-chat.png)
+![Pairing code](/botdrop-docs/images/telegram/04-open-bot-chat.png)
 
 Once paired, you can start chatting.
 
-![Bot responding](/images/telegram/06-pairing-code.png)
+![Bot responding](/botdrop-docs/images/telegram/06-pairing-code.png)
 
 ---
 

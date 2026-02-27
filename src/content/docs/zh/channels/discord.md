@@ -15,17 +15,17 @@ description: 将 BotDrop Agent 连接到 Discord。
 
 打开 [Discord 开发者平台](https://discord.com/developers/applications)，点击 **New Application**。
 
-![New Application](/images/discord/01-new-application.png)
+![New Application](/botdrop-docs/images/discord/01-new-application.png)
 
 输入名称（比如 "BotDrop AI"），点击 **Create**。
 
-![Create App Dialog](/images/discord/02-create-app-dialog.png)
+![Create App Dialog](/botdrop-docs/images/discord/02-create-app-dialog.png)
 
 ### 2. 获取 Bot Token
 
 左侧栏点击 **Bot**，点击 **Reset Token** 生成新 Token。**复制并保存这个 Token，后面在 BotDrop 里要用。**
 
-![Reset Token](/images/discord/03-bot-reset-token.png)
+![Reset Token](/botdrop-docs/images/discord/03-bot-reset-token.png)
 
 :::caution
 请妥善保管 Token，不要泄露或提交到公开仓库。
@@ -41,7 +41,7 @@ description: 将 BotDrop Agent 连接到 Discord。
 
 点击 **Save Changes** 保存。
 
-![Privileged Intents](/images/discord/04-privileged-intents.png)
+![Privileged Intents](/botdrop-docs/images/discord/04-privileged-intents.png)
 
 ### 4. 配置 OAuth2 权限
 
@@ -51,7 +51,7 @@ description: 将 BotDrop Agent 连接到 Discord。
 - `bot`
 - `applications.commands`
 
-![OAuth2 Scopes](/images/discord/05-oauth2-scopes.png)
+![OAuth2 Scopes](/botdrop-docs/images/discord/05-oauth2-scopes.png)
 
 **Bot Permissions** 勾选：
 - View Channels
@@ -61,7 +61,7 @@ description: 将 BotDrop Agent 连接到 Discord。
 - Attach Files
 - Add Reactions
 
-![Bot Permissions](/images/discord/06-bot-permissions.png)
+![Bot Permissions](/botdrop-docs/images/discord/06-bot-permissions.png)
 
 ### 5. 邀请 Bot 到服务器
 
@@ -69,15 +69,15 @@ description: 将 BotDrop Agent 连接到 Discord。
 
 选择你要添加 Bot 的服务器，点击 **继续**。
 
-![选择服务器](/images/discord/07-authorize-select-server.png)
+![选择服务器](/botdrop-docs/images/discord/07-authorize-select-server.png)
 
 确认权限，点击 **授权**。
 
-![授权](/images/discord/08-authorize-permissions.png)
+![授权](/botdrop-docs/images/discord/08-authorize-permissions.png)
 
 Bot 会出现在服务器的成员列表中。
 
-![Bot 已加入](/images/discord/09-bot-joined.png)
+![Bot 已加入](/botdrop-docs/images/discord/09-bot-joined.png)
 
 ---
 

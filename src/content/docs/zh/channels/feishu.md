@@ -76,17 +76,77 @@ description: 将 BotDrop Agent 连接到飞书。
 <details>
 <summary>📋 所有权限 scope（点击展开并复制）</summary>
 
-```
-contact:user.base:readonly
-im:message
-im:message.p2p_msg:readonly
-im:message.group_at_msg:readonly
-im:message:send_as_bot
-im:resource
-im:message.group_msg
-im:message:readonly
-im:message:update
-im:message:recall
+```json
+{
+  "scopes": {
+    "tenant": [
+      "aily:file:read",
+      "aily:file:write",
+      "application:application.app_message_stats.overview:readonly",
+      "application:bot.menu:write",
+      "application:application:self_manage",
+      "base:app:copy",
+      "base:app:create",
+      "base:app:read",
+      "base:app:update",
+      "base:collaborator:create",
+      "base:collaborator:delete",
+      "base:collaborator:read",
+      "base:dashboard:copy",
+      "base:dashboard:read",
+      "base:field:create",
+      "base:field:delete",
+      "base:field:read",
+      "base:field:update",
+      "base:form:read",
+      "base:form:update",
+      "base:record:create",
+      "base:record:delete",
+      "base:record:read",
+      "base:record:retrieve",
+      "base:record:update",
+      "base:role:create",
+      "base:role:delete",
+      "base:role:read",
+      "base:role:update",
+      "base:table:create",
+      "base:table:delete",
+      "base:table:read",
+      "base:table:update",
+      "base:view:read",
+      "base:view:write_only",
+      "base:workflow:read",
+      "base:workflow:write",
+      "cardkit:card:write",
+      "contact:user.base:readonly",
+      "contact:user.employee_id:readonly",
+      "corehr:file:download",
+      "docs:doc",
+      "docs:document.content:read",
+      "drive:drive",
+      "event:ip_list",
+      "im:chat",
+      "im:chat.access_event.bot_p2p_chat:read",
+      "im:chat.members:bot_access",
+      "im:message",
+      "im:message.group_at_msg:readonly",
+      "im:message.group_msg",
+      "im:message.p2p_msg:readonly",
+      "im:message:readonly",
+      "im:message:send_as_bot",
+      "im:resource",
+      "sheets:spreadsheet",
+      "wiki:wiki",
+      "wiki:wiki:readonly"
+    ],
+    "user": [
+      "aily:file:read",
+      "aily:file:write",
+      "contact:contact.base:readonly",
+      "im:chat.access_event.bot_p2p_chat:read"
+    ]
+  }
+}
 ```
 
 </details>

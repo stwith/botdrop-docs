@@ -3,39 +3,109 @@ title: Discord
 description: Connect your BotDrop agent to Discord.
 ---
 
-## Create a Discord Bot
+> Prerequisite: You have BotDrop installed and your AI model configured. This guide only covers connecting Discord.
 
-1. Go to the [Discord Developer Portal](https://discord.com/developers/applications)
-2. Click **New Application**, give it a name
-3. Go to the **Bot** tab
-4. Click **Reset Token** and copy the **bot token**
-5. Under **Privileged Gateway Intents**, enable:
-   - **Message Content Intent**
-   - **Server Members Intent** (optional, for member info)
+Two things to do: create a Discord bot on the developer portal, then enter the bot token in BotDrop.
 
-## Invite the Bot to Your Server
+---
 
-1. Go to the **OAuth2** tab
-2. Under **OAuth2 URL Generator**, select the `bot` scope
-3. Under **Bot Permissions**, select:
-   - Send Messages
-   - Read Message History
-   - Embed Links
-   - Attach Files
-   - Add Reactions
-4. Copy the generated URL and open it in your browser
-5. Select your server and authorize
+## Part 1: Create a Discord Bot
 
-## Configure in BotDrop
+### 1. Create a New Application
 
-1. In the Channel step, select **Discord**
-2. Paste your bot token
+Go to the [Discord Developer Portal](https://discord.com/developers/applications) and click **New Application**.
+
+![New Application](/images/discord/01-new-application.png)
+
+Enter a name for your bot (e.g. "BotDrop AI") and click **Create**.
+
+![Create App Dialog](/images/discord/02-create-app-dialog.png)
+
+### 2. Get the Bot Token
+
+In the left sidebar, click **Bot**, then click **Reset Token** to generate a new token. **Copy and save this token — you'll need it in BotDrop.**
+
+![Reset Token](/images/discord/03-bot-reset-token.png)
+
+:::caution
+Keep your token safe. Don't share it or commit it to public repos.
+:::
+
+### 3. Enable Privileged Intents
+
+Scroll down to **Privileged Gateway Intents** and enable:
+
+- **Message Content Intent** (required, lets the bot read messages)
+- **Server Members Intent** (recommended, for role-based access)
+- **Presence Intent** (optional, for status updates)
+
+Click **Save Changes**.
+
+![Privileged Intents](/images/discord/04-privileged-intents.png)
+
+### 4. Configure OAuth2 Permissions
+
+In the left sidebar, click **OAuth2**, then scroll to **OAuth2 URL Generator**.
+
+Under **Scopes**, check:
+- `bot`
+- `applications.commands`
+
+![OAuth2 Scopes](/images/discord/05-oauth2-scopes.png)
+
+Under **Bot Permissions**, check:
+- View Channels
+- Send Messages
+- Read Message History
+- Embed Links
+- Attach Files
+- Add Reactions
+
+![Bot Permissions](/images/discord/06-bot-permissions.png)
+
+### 5. Invite the Bot to Your Server
+
+Copy the **Generated URL** at the bottom of the page and open it in your browser.
+
+Select the server you want to add the bot to and click **Continue**.
+
+![Select Server](/images/discord/07-authorize-select-server.png)
+
+Review the permissions and click **Authorize**.
+
+![Authorize](/images/discord/08-authorize-permissions.png)
+
+The bot will appear in your server's member list.
+
+![Bot Joined](/images/discord/09-bot-joined.png)
+
+---
+
+## Part 2: Configure in BotDrop
+
+1. In the Channel setup step, select **Discord**
+2. Paste the bot token you copied earlier
 3. Tap **Connect**
 
-Your bot is now online in your Discord server.
+BotDrop will start the gateway and connect to Discord. Your bot should come online in the server.
+
+### First Message & Pairing
+
+Send a message to the bot in Discord (via DM or by @mentioning it in a channel). On first contact, OpenClaw will send a **pairing code**. Approve it in BotDrop to complete the connection.
+
+---
 
 ## Tips
 
-- The bot responds when mentioned with `@botname`
+- The bot responds when mentioned with `@botname` or via DM
 - You can restrict the bot to specific channels using Discord's channel permissions
-- For DMs, users can message the bot directly from the server member list
+- If the bot shows as offline, check that the gateway is running in BotDrop
+
+## Troubleshooting
+
+| Problem | Solution |
+|---------|----------|
+| Bot is offline in Discord | Make sure the gateway is running in BotDrop. Check that the token is correct. |
+| Bot doesn't respond to messages | Verify that **Message Content Intent** is enabled in the developer portal. |
+| "Invalid Token" error | Reset the token in the developer portal and re-enter it in BotDrop. |
+| Bot can't see messages in a channel | Check the bot's channel permissions in Discord server settings. |

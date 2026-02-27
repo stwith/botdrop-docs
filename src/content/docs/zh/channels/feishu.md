@@ -74,7 +74,7 @@ description: 将 BotDrop Agent 连接到飞书。
 保存权限。
 
 <details>
-<summary>📋 所有权限 scope（点击展开并复制）</summary>
+<summary>📋 参考配置（点击展开）</summary>
 
 ```json
 {

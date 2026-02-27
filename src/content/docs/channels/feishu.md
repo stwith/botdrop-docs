@@ -74,7 +74,7 @@ Search for `im:` and enable all IM-related permissions.
 Save permissions.
 
 <details>
-<summary>📋 All permission scopes (click to expand and copy)</summary>
+<summary>📋 Reference configuration (click to expand)</summary>
 
 ```json
 {

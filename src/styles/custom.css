@@ -52,25 +52,13 @@
 	font-family: "Chiron GoRound TC", system-ui, sans-serif !important;
 }
 
-/* Download button row */
-.download-row {
-	text-align: center;
-	margin: 0.5rem 0 2.5rem;
+/* Hero: 3rd action button on its own line */
+.hero .action:nth-child(3) {
+	flex-basis: 100%;
 }
-.download-btn {
-	display: inline-block;
-	padding: 0.65rem 2rem;
-	border-radius: 2rem;
-	background: var(--sl-color-accent);
-	color: var(--sl-color-white) !important;
-	font-weight: 600;
-	font-size: 1rem;
-	text-decoration: none !important;
-	transition: opacity 0.2s, transform 0.2s;
-}
-.download-btn:hover {
-	opacity: 0.9;
-	transform: translateY(-1px);
+[data-page-template="splash"] .hero .sl-flex {
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 /* Footer: sticky to bottom */

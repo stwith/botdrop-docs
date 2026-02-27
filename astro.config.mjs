@@ -62,8 +62,8 @@ export default defineConfig({
 					slug: 'installation',
 				},
 				{
-					label: 'Setup',
-					translations: { 'zh-CN': '设置' },
+					label: 'Configuration',
+					translations: { 'zh-CN': '配置流程' },
 					slug: 'setup',
 				},
 				{

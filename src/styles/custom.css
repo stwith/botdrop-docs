@@ -74,7 +74,7 @@
 }
 
 /* Hide Starlight built-in pagination footer on pages with our custom footer */
-.content-panel:has(.botdrop-footer) > footer:not(.botdrop-footer) {
+.content-panel:has(.botdrop-footer) footer:not(.botdrop-footer) {
 	display: none !important;
 }
 

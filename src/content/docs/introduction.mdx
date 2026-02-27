@@ -1,0 +1,58 @@
+---
+title: Introduction
+description: What is BotDrop.
+hero:
+  tagline: One-tap install on mobile, AI Bots for everyone.
+  actions:
+    - text: Get Started
+      link: /botdrop-docs/installation/
+      icon: right-arrow
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/zhixianio/botdrop-android
+      icon: external
+      variant: minimal
+      attrs:
+        target: _blank
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="📥 Download APK" description="Go to botdrop.app to download the latest version." href="https://botdrop.app" target="_blank" />
+
+## Why BotDrop?
+
+<CardGrid>
+  <Card title="📱 Install on Android, No Server Needed" icon="smartphone">
+    Download the APK and run AI agents directly on your phone. All configuration through a visual GUI, no terminal required.
+  </Card>
+  <Card title="🤖 100+ AI Models" icon="puzzle">
+    Supports Claude, GPT, Gemini, DeepSeek, and 100+ models via OpenRouter. Bring your own API key or use custom endpoints.
+  </Card>
+  <Card title="💬 Telegram · Discord · Feishu" icon="comment-alt">
+    Connect your bot to major chat platforms. Talk to your AI agent wherever you already chat.
+  </Card>
+</CardGrid>
+
+## How It Works
+
+BotDrop packages [OpenClaw](https://openclaw.ai/) into an Android app. OpenClaw is an AI agent framework that gives your bot tools, memory, and skills. BotDrop handles all the setup so you don't have to touch a terminal.
+
+## Supported Agents
+
+| Agent | Description | Status |
+|-------|-------------|--------|
+| [OpenClaw](https://openclaw.ai/) | Powerful AI agent platform with execution capabilities and long-term memory | ✅ Supported |
+| [OwliaBot](https://owlia.bot/) | A leaner, safer crypto-native OpenClaw 🦞 | 🔜 Coming Soon |
+| [NanoClaw](https://github.com/gavrielc/nanoclaw) | Minimal containerized Claude assistant 🦐 | 🔜 Coming Soon |
+| [nanobot](https://github.com/HKUDS/nanobot) | Lightweight local AI bot | 🔜 Coming Soon |
+
+## Next Step
+
+[Install BotDrop →](/botdrop-docs/installation/)
+
+---
+
+<div class="botdrop-footer">
+  <p>Built by <a href="https://github.com/zhixianio" target="_blank">Zhixian</a> · <a href="https://botdrop.app" target="_blank">botdrop.app</a> · <a href="https://discord.gg/w8wdnMM6Vy" target="_blank">Discord</a> · <a href="https://x.com/botdropapp" target="_blank">𝕏</a></p>
+</div>

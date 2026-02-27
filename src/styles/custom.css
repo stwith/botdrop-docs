@@ -38,3 +38,31 @@
 	--sl-color-gray-6: #f8fafc;
 	--sl-color-black: #ffffff;
 }
+
+/* BotDrop brand font (Chiron GoRound TC) */
+@import "@fontsource/chiron-goround-tc/400.css";
+@import "@fontsource/chiron-goround-tc/700.css";
+
+/* Apply to site title and hero */
+.site-title,
+[data-pagefind-meta="title"],
+.hero h1,
+.sl-markdown-content h1:first-of-type {
+	font-family: "Chiron GoRound TC", system-ui, sans-serif !important;
+}
+
+/* Footer */
+.botdrop-footer {
+	text-align: center;
+	padding: 2rem 1rem;
+	border-top: 1px solid var(--sl-color-gray-4);
+	color: var(--sl-color-gray-2);
+	font-size: 0.85rem;
+}
+.botdrop-footer a {
+	color: var(--sl-color-accent);
+	text-decoration: none;
+}
+.botdrop-footer a:hover {
+	text-decoration: underline;
+}

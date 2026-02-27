@@ -1,16 +1,17 @@
 @import "@fontsource/chiron-goround-tc/400.css";
 @import "@fontsource/chiron-goround-tc/700.css";
 
-/* Screenshot styling */
+/* Screenshot styling: responsive */
 .sl-markdown-content img {
+	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
 	border: 1px solid var(--sl-color-gray-4);
 }
 
-/* Phone screenshots: max 400px */
+/* Phone screenshots: max 400px on desktop, full width on mobile */
 .sl-markdown-content img.phone {
-	max-width: 400px;
+	max-width: min(400px, 100%);
 }
 
 /* Match botdrop.app dark-first style */

@@ -78,7 +78,13 @@
 	display: none !important;
 }
 
-/* Remove bottom padding when custom footer present */
-.content-panel:has(.botdrop-footer) {
+/* Remove ALL bottom padding/margin on splash homepage */
+main:has(.botdrop-footer),
+main:has(.botdrop-footer) .content-panel,
+main:has(.botdrop-footer) .sl-container,
+main:has(.botdrop-footer) .main-pane,
+main:has(.botdrop-footer) .main-frame,
+main:has(.botdrop-footer) .lg\:sl-flex {
 	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
 }

@@ -78,7 +78,7 @@
 	display: none !important;
 }
 
-/* Remove ALL bottom padding/margin on splash homepage */
+/* Remove ALL bottom padding/margin/min-height on splash homepage */
 main:has(.botdrop-footer),
 main:has(.botdrop-footer) .content-panel,
 main:has(.botdrop-footer) .sl-container,
@@ -87,4 +87,9 @@ main:has(.botdrop-footer) .main-frame,
 main:has(.botdrop-footer) .lg\:sl-flex {
 	padding-bottom: 0 !important;
 	margin-bottom: 0 !important;
+}
+
+/* Override Starlight page wrapper min-height to prevent extra space below footer */
+.page:has(.botdrop-footer) {
+	min-height: unset !important;
 }

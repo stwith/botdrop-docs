@@ -82,6 +82,10 @@ description: 将 BotDrop Agent 连接到 Discord。
 - 右键点击**服务器图标** → **复制服务器 ID**（即 Guild ID）
 - 右键点击目标**频道** → **复制频道 ID**（即 Channel ID）
 
+:::tip
+初次配置完成后，可以直接让 AI 帮你添加新的 Guild 或 Channel，无需再手动复制 ID。
+:::
+
 ---
 
 ## 第四步：在 BotDrop 中配置

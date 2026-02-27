@@ -73,6 +73,24 @@ description: 将 BotDrop Agent 连接到飞书。
 
 保存权限。
 
+<details>
+<summary>📋 所有权限 scope（点击展开并复制）</summary>
+
+```
+contact:user.base:readonly
+im:message
+im:message.p2p_msg:readonly
+im:message.group_at_msg:readonly
+im:message:send_as_bot
+im:resource
+im:message.group_msg
+im:message:readonly
+im:message:update
+im:message:recall
+```
+
+</details>
+
 ![保存权限](/botdrop-docs/images/feishu/11-save-permissions.png)
 
 ### 创建版本并发布
@@ -159,9 +177,11 @@ description: 将 BotDrop Agent 连接到飞书。
 
 在飞书中搜索你的 Bot 名称，给它发一条消息。Bot 会回复你的 **Feishu User ID**。
 
-![Bot 回复 User ID](/botdrop-docs/images/feishu/37-feishu-userid-reply.png)
-
 ![搜索 Bot](/botdrop-docs/images/feishu/33-search-bot-feishu.png)
+
+
+
+![Bot 回复 User ID](/botdrop-docs/images/feishu/37-feishu-userid-reply.png)
 
 复制 User ID，回到 BotDrop，粘贴到 **Feishu User ID** 输入框。
 
@@ -170,12 +190,6 @@ description: 将 BotDrop Agent 连接到飞书。
 再次点击 **CONNECT & START**，搞定。
 
 ---
-
-## 小贴士
-
-手机上也能用：
-
-![移动端对话](/botdrop-docs/images/feishu/34-mobile-chat-demo.jpg)
 
 ## 常见问题
 

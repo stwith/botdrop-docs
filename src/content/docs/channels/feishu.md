@@ -73,6 +73,24 @@ Search for `im:` and enable all IM-related permissions.
 
 Save permissions.
 
+<details>
+<summary>📋 All permission scopes (click to expand and copy)</summary>
+
+```
+contact:user.base:readonly
+im:message
+im:message.p2p_msg:readonly
+im:message.group_at_msg:readonly
+im:message:send_as_bot
+im:resource
+im:message.group_msg
+im:message:readonly
+im:message:update
+im:message:recall
+```
+
+</details>
+
 ![Save Permissions](/botdrop-docs/images/feishu/11-save-permissions.png)
 
 ### Create Version and Publish
@@ -159,9 +177,11 @@ Create a new version (e.g. 1.0.1) and publish again.
 
 Search for your bot name in Feishu and send it a message. The bot will reply with your **Feishu User ID**.
 
-![Bot replies with User ID](/botdrop-docs/images/feishu/37-feishu-userid-reply.png)
-
 ![Search Bot](/botdrop-docs/images/feishu/33-search-bot-feishu.png)
+
+
+
+![Bot replies with User ID](/botdrop-docs/images/feishu/37-feishu-userid-reply.png)
 
 Copy the User ID, go back to BotDrop, and paste it into the **Feishu User ID** field.
 
@@ -170,12 +190,6 @@ Copy the User ID, go back to BotDrop, and paste it into the **Feishu User ID** f
 Tap **CONNECT & START** again. Done.
 
 ---
-
-## Tips
-
-Works on mobile too:
-
-![Mobile Chat](/botdrop-docs/images/feishu/34-mobile-chat-demo.jpg)
 
 ## Troubleshooting
 

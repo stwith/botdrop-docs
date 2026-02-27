@@ -3,7 +3,7 @@ title: Feishu
 description: Connect your BotDrop agent to Feishu (Lark).
 ---
 
-Four steps: create a bot app on Feishu, connect in BotDrop, set up the event callback, then get your User ID.
+Four steps to connect Feishu.
 
 ---
 

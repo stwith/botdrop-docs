@@ -3,7 +3,7 @@ title: Telegram
 description: Connect your BotDrop agent to Telegram.
 ---
 
-Two steps: create a Telegram bot to get a token, then get your User ID from the BotDrop Setup Bot.
+Two steps to connect Telegram.
 
 ---
 

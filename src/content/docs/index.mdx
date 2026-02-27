@@ -9,8 +9,32 @@ hero:
       link: /botdrop-docs/introduction/
       icon: right-arrow
       variant: primary
-    - text: Download APK
-      link: https://github.com/zhixianio/botdrop-android/releases
+    - text: View on GitHub
+      link: https://github.com/zhixianio/botdrop-android
       icon: external
       variant: minimal
+      attrs:
+        target: _blank
 ---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="📥 Download APK" description="Go to botdrop.app to download the latest version." href="https://botdrop.app" target="_blank" />
+
+<CardGrid>
+  <Card title="📱 Install on Android, No Server Needed">
+    Download the APK and run AI agents directly on your phone. All configuration through a visual GUI, no terminal required.
+  </Card>
+  <Card title="🤖 100+ AI Models">
+    Supports Claude, GPT, Gemini, DeepSeek, and 100+ models via OpenRouter. Bring your own API key or use custom endpoints.
+  </Card>
+  <Card title="💬 Telegram · Discord · Feishu">
+    Connect your bot to major chat platforms. Talk to your AI agent wherever you already chat.
+  </Card>
+</CardGrid>
+
+---
+
+<div class="botdrop-footer">
+  <p>Built by <a href="https://github.com/zhixianio" target="_blank">Zhixian</a> · <a href="https://botdrop.app" target="_blank">botdrop.app</a> · <a href="https://discord.gg/w8wdnMM6Vy" target="_blank">Discord</a> · <a href="https://x.com/botdropapp" target="_blank">𝕏</a></p>
+</div>

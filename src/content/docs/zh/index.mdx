@@ -1,16 +1,40 @@
 ---
 title: BotDrop
-description: 一键安装，手机上的 AI Bot。
+description: 手机一键安装 AI Bot。
 template: splash
 hero:
-  tagline: 一键安装，让每个人都能用上 AI Bot。
+  tagline: 手机一键安装，人人都能用的 AI Bot。
   actions:
     - text: 开始使用
       link: /botdrop-docs/zh/introduction/
       icon: right-arrow
       variant: primary
-    - text: 下载 APK
-      link: https://github.com/zhixianio/botdrop-android/releases
+    - text: GitHub 仓库
+      link: https://github.com/zhixianio/botdrop-android
       icon: external
       variant: minimal
+      attrs:
+        target: _blank
 ---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<LinkCard title="📥 立即下载" description="前往 botdrop.app 下载最新版本。" href="https://botdrop.app" target="_blank" />
+
+<CardGrid>
+  <Card title="📱 安卓直装，无需服务器">
+    下载 APK 即可在手机上运行 AI Agent。所有配置通过可视化界面完成，不用碰终端。
+  </Card>
+  <Card title="🤖 支持 100+ AI 模型">
+    支持 Claude、GPT、Gemini、DeepSeek 等主流模型，通过 OpenRouter 接入 100+ 模型。自带 API Key 或自定义端点。
+  </Card>
+  <Card title="💬 Telegram · Discord · 飞书">
+    将 Bot 连接到主流聊天平台。在你常用的聊天软件里和 AI Agent 对话。
+  </Card>
+</CardGrid>
+
+---
+
+<div class="botdrop-footer">
+  <p>Built by <a href="https://github.com/zhixianio" target="_blank">Zhixian</a> · <a href="https://botdrop.app" target="_blank">botdrop.app</a> · <a href="https://discord.gg/w8wdnMM6Vy" target="_blank">Discord</a> · <a href="https://x.com/botdropapp" target="_blank">𝕏</a></p>
+</div>

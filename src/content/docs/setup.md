@@ -11,7 +11,7 @@ Select which bot framework to install. Tap **INSTALL** next to OpenClaw.
 
 ![Choose agent](/botdrop-docs/images/setup/01-choose-agent.png)
 
-BotDrop will automatically set up the environment, verify Node.js, and install OpenClaw. This takes about a minute.
+BotDrop will automatically set up the environment, verify Node.js, and install OpenClaw. This takes about 3–5 minutes. Please be patient.
 
 ![Installing](/botdrop-docs/images/setup/02-installing.png)
 

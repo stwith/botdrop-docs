@@ -11,7 +11,7 @@ description: 在 BotDrop 中配置你的 AI Bot。
 
 ![选择 Agent](/botdrop-docs/images/setup/01-choose-agent.png)
 
-BotDrop 自动配置环境、验证 Node.js 并安装 OpenClaw，大约需要一分钟。
+BotDrop 自动配置环境、验证 Node.js 并安装 OpenClaw，大约需要 3~5 分钟，请耐心等待。
 
 ![安装中](/botdrop-docs/images/setup/02-installing.png)
 

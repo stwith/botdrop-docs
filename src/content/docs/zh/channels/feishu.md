@@ -3,7 +3,7 @@ title: 飞书
 description: 将 BotDrop Agent 连接到飞书。
 ---
 
-四步完成飞书连接。
+四步完成飞书连接：创建应用，在 BotDrop 中连接，设置事件回调，然后获取你的 User ID。
 
 ---
 

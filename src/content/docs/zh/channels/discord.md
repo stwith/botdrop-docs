@@ -3,7 +3,7 @@ title: Discord
 description: 将 BotDrop Agent 连接到 Discord。
 ---
 
-四步完成 Discord 连接。
+四步完成 Discord 连接：创建 Bot，邀请到服务器，复制 ID，然后在 BotDrop 中填入。
 
 ---
 

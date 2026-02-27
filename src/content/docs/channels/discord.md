@@ -3,7 +3,7 @@ title: Discord
 description: Connect your BotDrop agent to Discord.
 ---
 
-Four steps to connect Discord.
+Four steps to connect Discord: create a bot, invite it to your server, copy the IDs, then fill them in BotDrop.
 
 ---
 

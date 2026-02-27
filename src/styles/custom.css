@@ -53,26 +53,6 @@
 	font-family: "Chiron GoRound TC", system-ui, sans-serif !important;
 }
 
-/* Hero: 3rd action button on its own line */
-.hero .action:nth-child(3) {
-	flex-basis: 100%;
-}
-[data-page-template="splash"] .hero .sl-flex {
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-/* Splash: remove extra bottom padding */
-[data-page-template="splash"] .content-panel {
-	padding-bottom: 0 !important;
-}
-[data-page-template="splash"] .main-pane {
-	padding-bottom: 0 !important;
-}
-[data-page-template="splash"] .sl-markdown-content > :last-child {
-	margin-bottom: 0;
-}
-
 /* Footer: sticky to bottom */
 .botdrop-footer {
 	text-align: center;
@@ -93,7 +73,12 @@
 	text-decoration: underline;
 }
 
-/* Hide Starlight's built-in footer on splash pages (removes whitespace below our footer) */
-[data-page-template="splash"] .content-panel > footer.sl-flex {
-	display: none;
+/* Hide Starlight's built-in pagination footer on pages with our custom footer */
+.content-panel:has(.botdrop-footer) > footer:not(.botdrop-footer) {
+	display: none !important;
+}
+
+/* Remove bottom padding when custom footer present */
+.content-panel:has(.botdrop-footer) {
+	padding-bottom: 0 !important;
 }

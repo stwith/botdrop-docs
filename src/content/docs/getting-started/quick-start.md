@@ -1,23 +1,50 @@
 ---
 title: Quick Start
-description: Get your first BotDrop agent running in minutes.
+description: Install BotDrop and set up your first AI agent.
+sidebar:
+  order: 2
 ---
 
-Get up and running with BotDrop in a few steps.
+Get your AI agent running on Android in 4 steps.
 
-## Prerequisites
+## 1. Download & Install
 
-- A BotDrop account
-- Node.js 18+ (for local development)
+Download the latest APK from [GitHub Releases](https://github.com/zhixianio/botdrop-android/releases) and install it on your Android device.
 
-## 1. Create an Agent
+**Requirements:**
+- Android 10+ (API level 29+)
+- At least 2GB free storage
 
-Coming soon.
+## 2. Auth — Add Your API Key
 
-## 2. Configure
+Open BotDrop and enter your AI provider credentials. Supported providers:
 
-Coming soon.
+- Anthropic (Claude)
+- OpenAI (GPT)
+- Google Gemini
+- OpenRouter
+- Any OpenAI-compatible endpoint
 
-## 3. Deploy
+## 3. Agent — Configure Your Bot
 
-Coming soon.
+Choose your agent's name, model, and personality. BotDrop will install OpenClaw and Node.js automatically in the background.
+
+## 4. Channel — Connect a Messenger
+
+Link your agent to Telegram or Discord so you can chat with it from anywhere.
+
+Once connected, your agent runs in the background with auto-restart. You're done.
+
+## Build from Source
+
+If you prefer to build the APK yourself:
+
+```bash
+git clone https://github.com/zhixianio/botdrop-android.git
+cd botdrop-android
+./gradlew assembleDebug
+```
+
+The APK will be at `app/build/outputs/apk/debug/`.
+
+**Build requirements:** Android SDK (API 34+), NDK r29+, JDK 17+.

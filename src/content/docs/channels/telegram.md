@@ -13,13 +13,13 @@ Two steps to connect Telegram: create a bot to get a token, then get your User I
 
 Open Telegram and search for `@BotFather`. Select the verified account.
 
-<img class="phone" src="/botdrop-docs/images/telegram/01-search-botfather.png" alt="Search BotFather" />
+<img class="phone" src="/images/telegram/01-search-botfather.png" alt="Search BotFather" />
 
 ### Create a New Bot
 
 Send `/newbot` to BotFather.
 
-<img class="phone" src="/botdrop-docs/images/telegram/02-newbot-command.png" alt="/newbot command" />
+<img class="phone" src="/images/telegram/02-newbot-command.png" alt="/newbot command" />
 
 Follow the prompts:
 1. Enter a **name** for your bot (e.g. "BotDrop AI")
@@ -27,7 +27,7 @@ Follow the prompts:
 
 BotFather will respond with your **Bot Token**. Copy it.
 
-<img class="phone" src="/botdrop-docs/images/telegram/03-set-bot-name.png" alt="Bot created with token" />
+<img class="phone" src="/images/telegram/03-set-bot-name.png" alt="Bot created with token" />
 
 :::caution
 Keep your token safe. Don't share it or post it publicly.
@@ -43,11 +43,11 @@ In BotDrop's Telegram setup screen, tap **OPEN @BOTDROPSETUPBOT**. This opens th
 
 Send `/start` to the bot. It will reply with your **User ID**.
 
-<img class="phone" src="/botdrop-docs/images/telegram/04-setup-bot-userid.png" alt="Setup Bot User ID" />
+<img class="phone" src="/images/telegram/04-setup-bot-userid.png" alt="Setup Bot User ID" />
 
 Tap the User ID to copy it, then paste it into the **Your User ID** field in BotDrop.
 
-<img class="phone" src="/botdrop-docs/images/telegram/05-telegram-filled.png" alt="Telegram config filled" />
+<img class="phone" src="/images/telegram/05-telegram-filled.png" alt="Telegram config filled" />
 
 Tap **CONNECT & START**. Done.
 

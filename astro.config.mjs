@@ -4,8 +4,8 @@ import starlight from '@astrojs/starlight';
 import rehypeExternalLinks from 'rehype-external-links';
 
 export default defineConfig({
-	site: 'https://stwith.github.io',
-	base: '/botdrop-docs',
+	site: 'https://docs.botdrop.app',
+	// base removed for custom domain
 	markdown: {
 		rehypePlugins: [
 			[rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],

@@ -9,21 +9,21 @@ description: 在 BotDrop 中配置你的 AI Bot。
 
 选择要安装的 Bot 框架。点击 OpenClaw 旁边的 **INSTALL**。
 
-<img class="phone" src="/botdrop-docs/images/setup/01-choose-agent.png" alt="选择 Agent" />
+<img class="phone" src="/images/setup/01-choose-agent.png" alt="选择 Agent" />
 
 BotDrop 自动配置环境、验证 Node.js 并安装 OpenClaw，大约需要 3~5 分钟，请耐心等待。
 
-<img class="phone" src="/botdrop-docs/images/setup/02-installing.png" alt="安装中" />
+<img class="phone" src="/images/setup/02-installing.png" alt="安装中" />
 
 ## 第二步：选择 AI 模型
 
 选择 AI 供应商并输入 API Key。
 
-<img class="phone" src="/botdrop-docs/images/setup/03-choose-model.png" alt="选择模型" />
+<img class="phone" src="/images/setup/03-choose-model.png" alt="选择模型" />
 
 点击 **SELECT**，搜索你的供应商（比如 OpenRouter），输入 API Key。
 
-<img class="phone" src="/botdrop-docs/images/setup/04-api-key.png" alt="输入 API Key" />
+<img class="phone" src="/images/setup/04-api-key.png" alt="输入 API Key" />
 
 支持的供应商：
 
@@ -37,15 +37,15 @@ BotDrop 自动配置环境、验证 Node.js 并安装 OpenClaw，大约需要 3~
 
 选择一个聊天平台和你的 Bot 对话，可以连接一个或多个：
 
-- [Telegram →](/botdrop-docs/zh/channels/telegram/)
-- [Discord →](/botdrop-docs/zh/channels/discord/)
-- [飞书 →](/botdrop-docs/zh/channels/feishu/)
+- [Telegram →](/zh/channels/telegram/)
+- [Discord →](/zh/channels/discord/)
+- [飞书 →](/zh/channels/feishu/)
 
-<img class="phone" src="/botdrop-docs/images/setup/05-channel-empty.png" alt="Telegram 设置" />
+<img class="phone" src="/images/setup/05-channel-empty.png" alt="Telegram 设置" />
 
 输入所需凭证，点击 **CONNECT & START**。
 
-<img class="phone" src="/botdrop-docs/images/setup/06-channel-filled.png" alt="Telegram 已填写" />
+<img class="phone" src="/images/setup/06-channel-filled.png" alt="Telegram 已填写" />
 
 也可以点 **SKIP FOR NOW**，之后再配置频道。
 
@@ -53,7 +53,7 @@ BotDrop 自动配置环境、验证 Node.js 并安装 OpenClaw，大约需要 3~
 
 连接后，仪表盘显示网关状态。绿色表示运行中。
 
-<img class="phone" src="/botdrop-docs/images/setup/07-dashboard.png" alt="仪表盘" />
+<img class="phone" src="/images/setup/07-dashboard.png" alt="仪表盘" />
 
 在仪表盘中你可以：
 - 启动 / 停止 / 重启网关

@@ -13,43 +13,43 @@ Four steps to connect Feishu: create an app, connect in BotDrop, set up event su
 
 Go to [Feishu Open Platform](https://open.feishu.cn) and click "Developer Console" in the top right.
 
-![Developer Console](/botdrop-docs/images/feishu/01-feishu-dev-console.png)
+![Developer Console](/images/feishu/01-feishu-dev-console.png)
 
 ### Create a Custom App
 
 Click "Create Custom App".
 
-![Create App Button](/botdrop-docs/images/feishu/02-create-app-button.png)
+![Create App Button](/images/feishu/02-create-app-button.png)
 
 Fill in the app name (e.g. "BotDrop"), description, and pick an icon.
 
-![Create App Form](/botdrop-docs/images/feishu/03-create-app-form.png)
+![Create App Form](/images/feishu/03-create-app-form.png)
 
 ### Note Your App ID and App Secret
 
 After creation, go to "Credentials & Basic Info". **Copy the App ID and App Secret.**
 
-![App Credentials](/botdrop-docs/images/feishu/04-app-credentials.png)
+![App Credentials](/images/feishu/04-app-credentials.png)
 
 ### Add Bot Capability
 
 Go to "Add App Capability" and click "Add" under "Bot".
 
-![Add Bot](/botdrop-docs/images/feishu/05-add-bot-capability.png)
+![Add Bot](/images/feishu/05-add-bot-capability.png)
 
 Once added, "Bot" appears in the left sidebar.
 
-![Bot Added](/botdrop-docs/images/feishu/06-bot-added.png)
+![Bot Added](/images/feishu/06-bot-added.png)
 
 ### Configure Permissions
 
 Go to "Permissions Management" and click "Add Permissions".
 
-![Permission Management](/botdrop-docs/images/feishu/07-permission-management.png)
+![Permission Management](/images/feishu/07-permission-management.png)
 
 Search for `im:` and enable all IM-related permissions.
 
-![Open IM Permissions](/botdrop-docs/images/feishu/08-open-im-permissions.png)
+![Open IM Permissions](/images/feishu/08-open-im-permissions.png)
 
 **Required permissions:**
 
@@ -151,31 +151,31 @@ Save permissions.
 
 </details>
 
-![Save Permissions](/botdrop-docs/images/feishu/11-save-permissions.png)
+![Save Permissions](/images/feishu/11-save-permissions.png)
 
 ### Create Version and Publish
 
 Click "Create Version" at the top.
 
-![Create Version](/botdrop-docs/images/feishu/09-create-version.png)
+![Create Version](/images/feishu/09-create-version.png)
 
 Fill in version number and release notes.
 
-![Version Details](/botdrop-docs/images/feishu/10-version-details.png)
+![Version Details](/images/feishu/10-version-details.png)
 
 Click "Request Online Release".
 
-![Publish Online](/botdrop-docs/images/feishu/12-publish-online.png)
+![Publish Online](/images/feishu/12-publish-online.png)
 
 ### Approve in Feishu Client
 
 Open Feishu messages, find the approval notification, and tap "Approve".
 
-<img class="phone" src="/botdrop-docs/images/feishu/13-approve-in-feishu.png" alt="Approve" />
+<img class="phone" src="/images/feishu/13-approve-in-feishu.png" alt="Approve" />
 
 After approval, the status shows green "Published".
 
-![Published](/botdrop-docs/images/feishu/14-published-success.png)
+![Published](/images/feishu/14-published-success.png)
 
 ---
 
@@ -189,7 +189,7 @@ Fill in:
 
 Leave the **Feishu User ID** field empty for now.
 
-<img class="phone" src="/botdrop-docs/images/feishu/35-botdrop-feishu-empty.png" alt="BotDrop Feishu setup" />
+<img class="phone" src="/images/feishu/35-botdrop-feishu-empty.png" alt="BotDrop Feishu setup" />
 
 Tap **CONNECT & START**.
 
@@ -203,33 +203,33 @@ Go back to your app settings on the Feishu Open Platform.
 
 Go to "Events & Callbacks" and click edit.
 
-![Event Callback](/botdrop-docs/images/feishu/27-event-callback-edit.png)
+![Event Callback](/images/feishu/27-event-callback-edit.png)
 
 Select "Use Long Connection to Receive Events" and save.
 
-![Long Connection](/botdrop-docs/images/feishu/28-long-connection.png)
+![Long Connection](/images/feishu/28-long-connection.png)
 
 ### Add Message Receive Event
 
 After saving, the "Add Event" button becomes clickable.
 
-![Add Event Enabled](/botdrop-docs/images/feishu/29-add-event-enabled.png)
+![Add Event Enabled](/images/feishu/29-add-event-enabled.png)
 
 Search for "Receive Message", check `im.message.receive_v1`, and confirm.
 
-![Add Receive Message](/botdrop-docs/images/feishu/30-add-receive-message.png)
+![Add Receive Message](/images/feishu/30-add-receive-message.png)
 
 ### Add Contact Permission
 
 The system will prompt for contact info permission. Search for `contact:contact.base:readonly` and enable it.
 
-![Contact Permission](/botdrop-docs/images/feishu/31-contact-permission.png)
+![Contact Permission](/images/feishu/31-contact-permission.png)
 
 ### Republish
 
 Create a new version (e.g. 1.0.1) and publish again.
 
-![Republish](/botdrop-docs/images/feishu/32-republish-version.png)
+![Republish](/images/feishu/32-republish-version.png)
 
 ---
 
@@ -237,15 +237,15 @@ Create a new version (e.g. 1.0.1) and publish again.
 
 Search for your bot name in Feishu and send it a message. The bot will reply with your **Feishu User ID**.
 
-![Search Bot](/botdrop-docs/images/feishu/33-search-bot-feishu.png)
+![Search Bot](/images/feishu/33-search-bot-feishu.png)
 
 
 
-<img class="phone" src="/botdrop-docs/images/feishu/37-feishu-userid-reply.png" alt="Bot replies with User ID" />
+<img class="phone" src="/images/feishu/37-feishu-userid-reply.png" alt="Bot replies with User ID" />
 
 Copy the User ID, go back to BotDrop, and paste it into the **Feishu User ID** field.
 
-<img class="phone" src="/botdrop-docs/images/feishu/36-botdrop-feishu-filled.png" alt="BotDrop Feishu filled" />
+<img class="phone" src="/images/feishu/36-botdrop-feishu-filled.png" alt="BotDrop Feishu filled" />
 
 Tap **CONNECT & START** again. Done.
 

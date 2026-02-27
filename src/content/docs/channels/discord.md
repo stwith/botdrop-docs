@@ -13,17 +13,17 @@ Four steps to connect Discord: create a bot, invite it to your server, copy the 
 
 Go to the [Discord Developer Portal](https://discord.com/developers/applications) and click **New Application**.
 
-![New Application](/botdrop-docs/images/discord/01-new-application.png)
+![New Application](/images/discord/01-new-application.png)
 
 Enter a name (e.g. "BotDrop AI") and click **Create**.
 
-![Create App](/botdrop-docs/images/discord/02-create-app-dialog.png)
+![Create App](/images/discord/02-create-app-dialog.png)
 
 ### Get the Bot Token
 
 Click **Bot** in the left sidebar, then click **Reset Token**. Copy and save the token.
 
-![Reset Token](/botdrop-docs/images/discord/03-bot-reset-token.png)
+![Reset Token](/images/discord/03-bot-reset-token.png)
 
 :::caution
 Keep your token safe. Don't share it or commit it to public repos.
@@ -39,7 +39,7 @@ Scroll down to **Privileged Gateway Intents** and enable:
 
 Click **Save Changes**.
 
-![Privileged Intents](/botdrop-docs/images/discord/04-privileged-intents.png)
+![Privileged Intents](/images/discord/04-privileged-intents.png)
 
 ---
 
@@ -51,7 +51,7 @@ Click **OAuth2** in the sidebar, scroll to **OAuth2 URL Generator**.
 
 Under **Scopes**, check `bot` and `applications.commands`.
 
-![OAuth2 Scopes](/botdrop-docs/images/discord/05-oauth2-scopes.png)
+![OAuth2 Scopes](/images/discord/05-oauth2-scopes.png)
 
 Under **Bot Permissions**, check:
 - View Channels
@@ -61,15 +61,15 @@ Under **Bot Permissions**, check:
 - Attach Files
 - Add Reactions
 
-![Bot Permissions](/botdrop-docs/images/discord/06-bot-permissions.png)
+![Bot Permissions](/images/discord/06-bot-permissions.png)
 
 ### Add Bot to Server
 
 Copy the **Generated URL** at the bottom, open it in your browser, select your server, and authorize.
 
-![Select Server](/botdrop-docs/images/discord/07-authorize-select-server.png)
+![Select Server](/images/discord/07-authorize-select-server.png)
 
-![Authorize](/botdrop-docs/images/discord/08-authorize-permissions.png)
+![Authorize](/images/discord/08-authorize-permissions.png)
 
 ---
 
@@ -91,7 +91,7 @@ In BotDrop's Discord setup screen, fill in:
 2. **Discord Guild ID** — the server ID from Step 3
 3. **Discord Channel ID** — the channel ID from Step 3
 
-<img class="phone" src="/botdrop-docs/images/discord/10-botdrop-discord-setup.jpg" alt="BotDrop Discord setup" />
+<img class="phone" src="/images/discord/10-botdrop-discord-setup.jpg" alt="BotDrop Discord setup" />
 
 Tap **CONNECT & START**. Done.
 

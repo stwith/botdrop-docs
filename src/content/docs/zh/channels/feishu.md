@@ -13,43 +13,43 @@ description: 将 BotDrop Agent 连接到飞书。
 
 打开[飞书开放平台](https://open.feishu.cn)，点击右上角"开发者后台"。
 
-![开发者后台](/botdrop-docs/images/feishu/01-feishu-dev-console.png)
+![开发者后台](/images/feishu/01-feishu-dev-console.png)
 
 ### 创建自建应用
 
 点击"创建自建应用"。
 
-![创建应用按钮](/botdrop-docs/images/feishu/02-create-app-button.png)
+![创建应用按钮](/images/feishu/02-create-app-button.png)
 
 填写应用名称（比如 "BotDrop"）、描述，选个图标。
 
-![创建应用表单](/botdrop-docs/images/feishu/03-create-app-form.png)
+![创建应用表单](/images/feishu/03-create-app-form.png)
 
 ### 记录 App ID 和 App Secret
 
 创建完成后，进入"凭证与基础信息"。**复制 App ID 和 App Secret。**
 
-![应用凭证](/botdrop-docs/images/feishu/04-app-credentials.png)
+![应用凭证](/images/feishu/04-app-credentials.png)
 
 ### 添加机器人能力
 
 进入"添加应用能力"，在"机器人"下点击"添加"。
 
-![添加机器人](/botdrop-docs/images/feishu/05-add-bot-capability.png)
+![添加机器人](/images/feishu/05-add-bot-capability.png)
 
 添加成功后，左侧栏出现"机器人"。
 
-![机器人已添加](/botdrop-docs/images/feishu/06-bot-added.png)
+![机器人已添加](/images/feishu/06-bot-added.png)
 
 ### 配置权限
 
 进入"权限管理"，点击"添加权限"。
 
-![权限管理](/botdrop-docs/images/feishu/07-permission-management.png)
+![权限管理](/images/feishu/07-permission-management.png)
 
 搜索 `im:`，开启所有 IM 相关权限。
 
-![开启 IM 权限](/botdrop-docs/images/feishu/08-open-im-permissions.png)
+![开启 IM 权限](/images/feishu/08-open-im-permissions.png)
 
 **必选权限：**
 
@@ -151,31 +151,31 @@ description: 将 BotDrop Agent 连接到飞书。
 
 </details>
 
-![保存权限](/botdrop-docs/images/feishu/11-save-permissions.png)
+![保存权限](/images/feishu/11-save-permissions.png)
 
 ### 创建版本并发布
 
 点击顶部"创建版本"。
 
-![创建版本](/botdrop-docs/images/feishu/09-create-version.png)
+![创建版本](/images/feishu/09-create-version.png)
 
 填写版本号和更新说明。
 
-![版本详情](/botdrop-docs/images/feishu/10-version-details.png)
+![版本详情](/images/feishu/10-version-details.png)
 
 点击"申请线上发布"。
 
-![申请发布](/botdrop-docs/images/feishu/12-publish-online.png)
+![申请发布](/images/feishu/12-publish-online.png)
 
 ### 在飞书客户端审批
 
 打开飞书消息，找到审批通知，点击"通过"。
 
-<img class="phone" src="/botdrop-docs/images/feishu/13-approve-in-feishu.png" alt="审批" />
+<img class="phone" src="/images/feishu/13-approve-in-feishu.png" alt="审批" />
 
 审批通过后，状态显示绿色"已上线"。
 
-![已发布](/botdrop-docs/images/feishu/14-published-success.png)
+![已发布](/images/feishu/14-published-success.png)
 
 ---
 
@@ -189,7 +189,7 @@ description: 将 BotDrop Agent 连接到飞书。
 
 **Feishu User ID** 先留空。
 
-<img class="phone" src="/botdrop-docs/images/feishu/35-botdrop-feishu-empty.png" alt="BotDrop 飞书设置" />
+<img class="phone" src="/images/feishu/35-botdrop-feishu-empty.png" alt="BotDrop 飞书设置" />
 
 点击 **CONNECT & START**。
 
@@ -203,33 +203,33 @@ description: 将 BotDrop Agent 连接到飞书。
 
 进入"事件与回调"，点击编辑。
 
-![事件回调](/botdrop-docs/images/feishu/27-event-callback-edit.png)
+![事件回调](/images/feishu/27-event-callback-edit.png)
 
 选择"使用长连接接收事件"并保存。
 
-![长连接](/botdrop-docs/images/feishu/28-long-connection.png)
+![长连接](/images/feishu/28-long-connection.png)
 
 ### 添加消息接收事件
 
 保存后，"添加事件"按钮变为可点击状态。
 
-![添加事件](/botdrop-docs/images/feishu/29-add-event-enabled.png)
+![添加事件](/images/feishu/29-add-event-enabled.png)
 
 搜索"接收消息"，勾选 `im.message.receive_v1`，确认。
 
-![添加接收消息事件](/botdrop-docs/images/feishu/30-add-receive-message.png)
+![添加接收消息事件](/images/feishu/30-add-receive-message.png)
 
 ### 添加通讯录权限
 
 系统会提示需要通讯录权限。搜索 `contact:contact.base:readonly` 并开启。
 
-![通讯录权限](/botdrop-docs/images/feishu/31-contact-permission.png)
+![通讯录权限](/images/feishu/31-contact-permission.png)
 
 ### 重新发版
 
 创建新版本（比如 1.0.1）并再次发布。
 
-![重新发版](/botdrop-docs/images/feishu/32-republish-version.png)
+![重新发版](/images/feishu/32-republish-version.png)
 
 ---
 
@@ -237,15 +237,15 @@ description: 将 BotDrop Agent 连接到飞书。
 
 在飞书中搜索你的 Bot 名称，给它发一条消息。Bot 会回复你的 **Feishu User ID**。
 
-![搜索 Bot](/botdrop-docs/images/feishu/33-search-bot-feishu.png)
+![搜索 Bot](/images/feishu/33-search-bot-feishu.png)
 
 
 
-<img class="phone" src="/botdrop-docs/images/feishu/37-feishu-userid-reply.png" alt="Bot 回复 User ID" />
+<img class="phone" src="/images/feishu/37-feishu-userid-reply.png" alt="Bot 回复 User ID" />
 
 复制 User ID，回到 BotDrop，粘贴到 **Feishu User ID** 输入框。
 
-<img class="phone" src="/botdrop-docs/images/feishu/36-botdrop-feishu-filled.png" alt="BotDrop 飞书已填写" />
+<img class="phone" src="/images/feishu/36-botdrop-feishu-filled.png" alt="BotDrop 飞书已填写" />
 
 再次点击 **CONNECT & START**，搞定。
 

@@ -26,4 +26,4 @@ BotDrop packages [OpenClaw](https://openclaw.ai/) into an Android app. OpenClaw 
 
 ## Next step
 
-[Install BotDrop →](/installation/)
+[Install BotDrop →](/botdrop-docs/installation/)

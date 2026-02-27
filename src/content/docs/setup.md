@@ -27,8 +27,8 @@ BotDrop will automatically download and set up the bot framework, Node.js, and a
 
 Connect a chat platform so you can talk to your bot. Pick one:
 
-- [Telegram →](/channels/telegram/)
-- [Discord →](/channels/discord/)
-- [Feishu →](/channels/feishu/)
+- [Telegram →](/botdrop-docs/channels/telegram/)
+- [Discord →](/botdrop-docs/channels/discord/)
+- [Feishu →](/botdrop-docs/channels/feishu/)
 
 Once a channel is connected, your bot starts running. It stays alive in the background and auto-restarts if needed.

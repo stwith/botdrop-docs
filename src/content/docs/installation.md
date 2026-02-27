@@ -19,4 +19,4 @@ Get the latest APK from [GitHub Releases](https://github.com/zhixianio/botdrop-a
 3. If prompted, allow installation from unknown sources
 4. Tap **Install**
 
-Once installed, open BotDrop and proceed to [Setup →](/setup/).
+Once installed, open BotDrop and proceed to [Setup →](/botdrop-docs/setup/).

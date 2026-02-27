@@ -19,4 +19,4 @@ description: 下载并安装 BotDrop。
 3. 如有提示，允许安装未知来源应用
 4. 点击 **安装**
 
-安装完成后，打开 BotDrop，进入 [设置 →](/zh/setup/)。
+安装完成后，打开 BotDrop，进入 [设置 →](/botdrop-docs/zh/setup/)。

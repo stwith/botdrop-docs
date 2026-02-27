@@ -26,4 +26,4 @@ BotDrop 把 [OpenClaw](https://openclaw.ai/) 打包成 Android App。OpenClaw �
 
 ## 下一步
 
-[安装 BotDrop →](/zh/installation/)
+[安装 BotDrop →](/botdrop-docs/zh/installation/)

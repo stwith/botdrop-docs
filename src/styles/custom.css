@@ -61,6 +61,17 @@
 	justify-content: center;
 }
 
+/* Splash: remove extra bottom padding */
+[data-page-template="splash"] .content-panel {
+	padding-bottom: 0 !important;
+}
+[data-page-template="splash"] .main-pane {
+	padding-bottom: 0 !important;
+}
+[data-page-template="splash"] .sl-markdown-content > :last-child {
+	margin-bottom: 0;
+}
+
 /* Footer: sticky to bottom */
 .botdrop-footer {
 	text-align: center;

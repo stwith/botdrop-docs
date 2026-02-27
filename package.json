@@ -1,0 +1,17 @@
+{
+  "name": "botdrop-docs",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "NODE_OPTIONS='--no-experimental-strip-types' astro dev",
+    "start": "NODE_OPTIONS='--no-experimental-strip-types' astro dev",
+    "build": "NODE_OPTIONS='--no-experimental-strip-types' astro build",
+    "preview": "NODE_OPTIONS='--no-experimental-strip-types' astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.37.4",
+    "astro": "^5.6.1",
+    "sharp": "^0.34.2"
+  }
+}

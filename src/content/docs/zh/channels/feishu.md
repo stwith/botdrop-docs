@@ -3,7 +3,7 @@ title: 飞书
 description: 将 BotDrop Agent 连接到飞书。
 ---
 
-四步完成飞书连接：创建应用，在 BotDrop 中连接，设置事件回调，然后获取你的 User ID。
+四步完成飞书连接：创建应用，在 BotDrop 中连接，设置事件订阅，然后获取你的 User ID。
 
 ---
 
@@ -195,7 +195,7 @@ description: 将 BotDrop Agent 连接到飞书。
 
 ---
 
-## 第三步：设置事件回调
+## 第三步：设置事件订阅
 
 回到飞书开放平台的应用设置。
 
@@ -255,6 +255,6 @@ description: 将 BotDrop Agent 连接到飞书。
 
 | 问题 | 解决 |
 |------|------|
-| Bot 不回复 | 确认事件回调设为长连接，且已添加 `im.message.receive_v1` 事件 |
+| Bot 不回复 | 确认事件订阅使用长连接，且已添加 `im.message.receive_v1` 事件 |
 | 权限不足 | 确认所有 IM 权限已开启，改权限后需要重新发版 |
 | 搜不到 Bot | 搜索创建应用时设置的完整名称 |

@@ -3,7 +3,7 @@ title: Feishu
 description: Connect your BotDrop agent to Feishu (Lark).
 ---
 
-Four steps to connect Feishu: create an app, connect in BotDrop, set up event callback, then get your User ID.
+Four steps to connect Feishu: create an app, connect in BotDrop, set up event subscription, then get your User ID.
 
 ---
 
@@ -195,7 +195,7 @@ Tap **CONNECT & START**.
 
 ---
 
-## Step 3: Set Up Event Callback
+## Step 3: Set Up Event Subscription
 
 Go back to your app settings on the Feishu Open Platform.
 
@@ -255,6 +255,6 @@ Tap **CONNECT & START** again. Done.
 
 | Problem | Solution |
 |---------|----------|
-| Bot doesn't reply | Check that event callback is set to long connection and `im.message.receive_v1` event is added. |
+| Bot doesn't reply | Check that event subscription uses long connection and `im.message.receive_v1` event is added. |
 | Permission denied | Make sure all IM permissions are enabled and a new version is published after changes. |
 | Can't find the bot | Search by the exact bot name you set when creating the app. |

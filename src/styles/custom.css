@@ -73,13 +73,18 @@
 	text-decoration: underline;
 }
 
-/* Hide Starlight's built-in pagination footer on pages with our custom footer */
+/* Hide Starlight built-in pagination footer on pages with our custom footer */
 .content-panel:has(.botdrop-footer) > footer:not(.botdrop-footer) {
 	display: none !important;
 }
 
-/* Remove ALL bottom padding/margin/min-height on splash homepage */
-main:has(.botdrop-footer),
+/* Remove ALL bottom spacing on pages with custom footer */
+.page:has(.botdrop-footer) {
+	min-height: unset !important;
+}
+main:has(.botdrop-footer) {
+	padding: 0 !important;
+}
 main:has(.botdrop-footer) .content-panel,
 main:has(.botdrop-footer) .sl-container,
 main:has(.botdrop-footer) .main-pane,
@@ -87,9 +92,4 @@ main:has(.botdrop-footer) .main-frame,
 main:has(.botdrop-footer) .lg\:sl-flex {
 	padding-bottom: 0 !important;
 	margin-bottom: 0 !important;
-}
-
-/* Override Starlight page wrapper min-height to prevent extra space below footer */
-.page:has(.botdrop-footer) {
-	min-height: unset !important;
 }

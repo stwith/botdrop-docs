@@ -4,6 +4,8 @@ description: One-tap AI Bots for Mobile.
 template: splash
 hero:
   tagline: One-tap install on mobile, AI Bots for everyone.
+  image:
+    file: ../../assets/logo.svg
   actions:
     - text: Get Started
       link: /botdrop-docs/introduction/
@@ -15,13 +17,17 @@ hero:
       variant: minimal
       attrs:
         target: _blank
+    - text: 📥 Download APK
+      link: https://botdrop.app
+      icon: external
+      variant: secondary
+      attrs:
+        target: _blank
 ---
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-<LinkCard title="📥 Download APK" description="Go to botdrop.app to download the latest version." href="https://botdrop.app" target="_blank" />
-
-<CardGrid>
+<CardGrid stagger>
   <Card title="📱 Install on Android, No Server Needed">
     Download the APK and run AI agents directly on your phone. All configuration through a visual GUI, no terminal required.
   </Card>
@@ -31,10 +37,12 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
   <Card title="💬 Telegram · Discord · Feishu">
     Connect your bot to major chat platforms. Talk to your AI agent wherever you already chat.
   </Card>
+  <Card title="🤳 Phone Automation (Coming Soon)">
+    Control your phone with AI. Automate taps, swipes, and interactions across apps, all driven by your bot.
+  </Card>
 </CardGrid>
 
----
-
 <div class="botdrop-footer">
-  <p>Built by <a href="https://github.com/zhixianio" target="_blank">Zhixian</a> · <a href="https://botdrop.app" target="_blank">botdrop.app</a> · <a href="https://discord.gg/w8wdnMM6Vy" target="_blank">Discord</a> · <a href="https://x.com/botdropapp" target="_blank">𝕏</a></p>
+  <p><a href="https://botdrop.app" target="_blank">Homepage</a> · <a href="https://discord.gg/w8wdnMM6Vy" target="_blank">Discord</a> · <a href="https://x.com/botdropapp" target="_blank">X</a></p>
+  <p>Built by BotDrop with ❤️</p>
 </div>

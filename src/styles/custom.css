@@ -91,3 +91,8 @@
 .botdrop-footer a:hover {
 	text-decoration: underline;
 }
+
+/* Hide Starlight's built-in footer on splash pages (removes whitespace below our footer) */
+[data-page-template="splash"] .content-panel > footer.sl-flex {
+	display: none;
+}

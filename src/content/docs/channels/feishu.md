@@ -3,21 +3,19 @@ title: Feishu
 description: Connect your BotDrop agent to Feishu (Lark).
 ---
 
-> Prerequisite: You have BotDrop installed and your AI model configured. This guide only covers connecting Feishu.
-
-Two things to do: create a bot app on Feishu, then configure the Feishu plugin in OpenClaw. Once the event callback is connected, you're good to go.
+Three things to do: create a bot app on Feishu Open Platform, connect it in BotDrop, then set up the event callback.
 
 ---
 
-## Part 1: Create App on Feishu Open Platform
+## Step 1: Create App on Feishu Open Platform
 
-### 1. Open the Developer Console
+### Open the Developer Console
 
 Go to [Feishu Open Platform](https://open.feishu.cn) and click "Developer Console" in the top right.
 
 ![Developer Console](/botdrop-docs/images/feishu/01-feishu-dev-console.png)
 
-### 2. Create a Custom App
+### Create a Custom App
 
 Click "Create Custom App".
 
@@ -27,13 +25,13 @@ Fill in the app name (e.g. "BotDrop"), description, and pick an icon.
 
 ![Create App Form](/botdrop-docs/images/feishu/03-create-app-form.png)
 
-### 3. Note Your App ID and App Secret
+### Note Your App ID and App Secret
 
-After creation, go to "Credentials & Basic Info". **Copy the App ID and App Secret — you'll need them later.**
+After creation, go to "Credentials & Basic Info". **Copy the App ID and App Secret.**
 
 ![App Credentials](/botdrop-docs/images/feishu/04-app-credentials.png)
 
-### 4. Add Bot Capability
+### Add Bot Capability
 
 Go to "Add App Capability" and click "Add" under "Bot".
 
@@ -43,7 +41,7 @@ Once added, "Bot" appears in the left sidebar.
 
 ![Bot Added](/botdrop-docs/images/feishu/06-bot-added.png)
 
-### 5. Configure Permissions
+### Configure Permissions
 
 Go to "Permissions Management" and click "Add Permissions".
 
@@ -77,7 +75,7 @@ Save permissions.
 
 ![Save Permissions](/botdrop-docs/images/feishu/11-save-permissions.png)
 
-### 6. Create Version and Publish
+### Create Version and Publish
 
 Click "Create Version" at the top.
 
@@ -91,7 +89,7 @@ Click "Request Online Release".
 
 ![Publish Online](/botdrop-docs/images/feishu/12-publish-online.png)
 
-### 7. Approve in Feishu Client
+### Approve in Feishu Client
 
 Open Feishu messages, find the approval notification, and tap "Approve".
 
@@ -103,90 +101,27 @@ After approval, the status shows green "Published".
 
 ---
 
-## Part 2: Install Feishu Plugin in OpenClaw
+## Step 2: Connect in BotDrop
 
-### 1. Install the Plugin
+In BotDrop, go to the **Feishu** tab under "Connect IM Channels".
 
-```bash
-openclaw plugins install @m1heng-clawd/feishu
-```
+Fill in:
+1. **App ID** — from Step 1
+2. **App Secret** — from Step 1
 
-### 2. Run the Config Wizard
+Leave the **Feishu User ID** field empty for now.
 
-```bash
-openclaw config
-```
+![BotDrop Feishu setup](/botdrop-docs/images/feishu/35-botdrop-feishu-empty.png)
 
-Select "Channels".
-
-![openclaw config](/botdrop-docs/images/feishu/15-openclaw-config.png)
-![Select Channels](/botdrop-docs/images/feishu/16-select-channels.png)
-
-Select "Configure/link" to add a channel.
-
-![Configure/link](/botdrop-docs/images/feishu/17-configure-link.png)
-
-Select "Feishu/Lark".
-
-![Select Feishu](/botdrop-docs/images/feishu/18-select-feishu.png)
-
-### 3. Enter Credentials
-
-Enter the App ID and App Secret you saved earlier.
-
-![Enter Credentials](/botdrop-docs/images/feishu/19-enter-credentials.png)
-
-### 4. Select Domain
-
-For China mainland users, select "Feishu (feishu.cn)".
-
-![Select Domain](/botdrop-docs/images/feishu/20-select-domain.png)
-
-### 5. Group Chat Policy
-
-Select "Open" to allow @ mentions in groups.
-
-![Group Policy](/botdrop-docs/images/feishu/21-group-chat-policy.png)
-
-### 6. Finish Channel Config
-
-Select "Finished (Done)".
-
-![Finished](/botdrop-docs/images/feishu/22-finished-channels.png)
-
-### 7. Configure DM Permissions
-
-Select "Yes" to configure DM policy.
-
-![DM Yes](/botdrop-docs/images/feishu/23-dm-access-yes.png)
-
-Select "Open" to allow DMs.
-
-![DM Open](/botdrop-docs/images/feishu/24-dm-open.png)
-
-### 8. Complete All Configuration
-
-Select "Continue (Done)".
-
-![Continue Done](/botdrop-docs/images/feishu/25-continue-done.png)
-
-### 9. Restart the Service
-
-```bash
-openclaw gateway restart
-```
-
-Check the logs for a successful Feishu connection.
-
-![Restart OK](/botdrop-docs/images/feishu/26-restart-feishu-ok.png)
+Tap **CONNECT & START**.
 
 ---
 
-## Part 3: Set Up Event Callback
+## Step 3: Set Up Event Callback
 
 Go back to your app settings on the Feishu Open Platform.
 
-### 1. Configure Event Subscription
+### Configure Event Subscription
 
 Go to "Events & Callbacks" and click edit.
 
@@ -196,7 +131,7 @@ Select "Use Long Connection to Receive Events" and save.
 
 ![Long Connection](/botdrop-docs/images/feishu/28-long-connection.png)
 
-### 2. Add Message Receive Event
+### Add Message Receive Event
 
 After saving, the "Add Event" button becomes clickable.
 
@@ -206,37 +141,44 @@ Search for "Receive Message", check `im.message.receive_v1`, and confirm.
 
 ![Add Receive Message](/botdrop-docs/images/feishu/30-add-receive-message.png)
 
-### 3. Add Contact Permission
+### Add Contact Permission
 
 The system will prompt for contact info permission. Search for `contact:contact.base:readonly` and enable it.
 
 ![Contact Permission](/botdrop-docs/images/feishu/31-contact-permission.png)
 
-### 4. Republish
+### Republish
 
-Create a new version (e.g. 1.0.1) and publish. Same process as before.
+Create a new version (e.g. 1.0.1) and publish again.
 
 ![Republish](/botdrop-docs/images/feishu/32-republish-version.png)
 
 ---
 
-## Done!
+## Step 4: Get Your User ID
 
-Search for your bot name in Feishu and start chatting.
+Search for your bot name in Feishu and send it a message. The bot will reply with your **Feishu User ID**.
 
 ![Search Bot](/botdrop-docs/images/feishu/33-search-bot-feishu.png)
+
+Copy the User ID, go back to BotDrop, and paste it into the **Feishu User ID** field.
+
+![BotDrop Feishu filled](/botdrop-docs/images/feishu/36-botdrop-feishu-filled.png)
+
+Tap **CONNECT & START** again. Done.
+
+---
+
+## Tips
 
 Works on mobile too:
 
 ![Mobile Chat](/botdrop-docs/images/feishu/34-mobile-chat-demo.jpg)
 
----
-
 ## Troubleshooting
 
 | Problem | Solution |
 |---------|----------|
-| Plugin install shows `spawn npm ENOENT` | Known Windows issue. Add `shell: true` to spawn calls in OpenClaw source, or wait for a fix. |
-| Bot doesn't reply | Check that event callback is set to long connection + `im.message.receive_v1` event is added. |
-| Permission denied | Make sure all IM permissions are enabled and a new version is published. |
-| No Feishu connection in gateway logs | Run `openclaw gateway restart` and verify App ID/Secret are correct. |
+| Bot doesn't reply | Check that event callback is set to long connection and `im.message.receive_v1` event is added. |
+| Permission denied | Make sure all IM permissions are enabled and a new version is published after changes. |
+| Can't find the bot | Search by the exact bot name you set when creating the app. |

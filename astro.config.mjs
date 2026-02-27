@@ -3,7 +3,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-	site: 'https://docs.botdrop.app',
+	site: 'https://stwith.github.io',
+	base: '/botdrop-docs',
 	integrations: [
 		starlight({
 			title: 'BotDrop',

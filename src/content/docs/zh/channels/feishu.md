@@ -159,6 +159,8 @@ description: 将 BotDrop Agent 连接到飞书。
 
 在飞书中搜索你的 Bot 名称，给它发一条消息。Bot 会回复你的 **Feishu User ID**。
 
+![Bot 回复 User ID](/botdrop-docs/images/feishu/37-feishu-userid-reply.png)
+
 ![搜索 Bot](/botdrop-docs/images/feishu/33-search-bot-feishu.png)
 
 复制 User ID，回到 BotDrop，粘贴到 **Feishu User ID** 输入框。

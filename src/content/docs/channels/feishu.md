@@ -159,6 +159,8 @@ Create a new version (e.g. 1.0.1) and publish again.
 
 Search for your bot name in Feishu and send it a message. The bot will reply with your **Feishu User ID**.
 
+![Bot replies with User ID](/botdrop-docs/images/feishu/37-feishu-userid-reply.png)
+
 ![Search Bot](/botdrop-docs/images/feishu/33-search-bot-feishu.png)
 
 Copy the User ID, go back to BotDrop, and paste it into the **Feishu User ID** field.

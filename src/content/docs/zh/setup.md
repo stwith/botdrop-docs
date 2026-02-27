@@ -3,32 +3,60 @@ title: 设置
 description: 在 BotDrop 中配置你的 AI Bot。
 ---
 
-BotDrop 引导你通过 4 步完成配置。
+授权完成后，BotDrop 引导你通过 4 步完成配置。
 
-## 第一步：认证
+## 第一步：选择 Agent
 
-输入你的 AI 供应商 API Key。支持的供应商：
+选择要安装的 Bot 框架。点击 OpenClaw 旁边的 **INSTALL**。
 
-- **Anthropic** — 在 [console.anthropic.com](https://console.anthropic.com/) 获取
-- **OpenAI** — 在 [platform.openai.com](https://platform.openai.com/) 获取
-- **Google Gemini** — 在 [aistudio.google.com](https://aistudio.google.com/) 获取
-- **OpenRouter** — 在 [openrouter.ai](https://openrouter.ai/) 获取（一个 Key 访问 100+ 模型）
+![选择 Agent](/botdrop-docs/images/drive/11-choose-agent.png)
+
+BotDrop 自动配置环境、验证 Node.js 并安装 OpenClaw，大约需要一分钟。
+
+![安装中](/botdrop-docs/images/drive/12-installing.png)
+
+## 第二步：选择 AI 模型
+
+选择 AI 供应商并输入 API Key。
+
+![选择模型](/botdrop-docs/images/drive/13-choose-model.png)
+
+点击 **SELECT**，搜索你的供应商（比如 OpenRouter），输入 API Key。
+
+![输入 API Key](/botdrop-docs/images/drive/15-api-key-clean.png)
+
+支持的供应商：
+
+- **Anthropic** — [console.anthropic.com](https://console.anthropic.com/)
+- **OpenAI** — [platform.openai.com](https://platform.openai.com/)
+- **Google Gemini** — [aistudio.google.com](https://aistudio.google.com/)
+- **OpenRouter** — [openrouter.ai](https://openrouter.ai/)（一个 Key 访问 100+ 模型）
 - **自定义接口** — 任何 OpenAI 兼容 API
 
-## 第二步：Agent
+## 第三步：连接聊天频道
 
-选择要安装的 Bot 框架。目前支持 OpenClaw，更多即将推出。
-
-## 第三步：安装
-
-BotDrop 自动下载并配置 Bot 框架、Node.js 和所有依赖。首次运行需要几分钟。
-
-## 第四步：频道
-
-连接一个聊天平台，这样你就能和 Bot 对话了。选一个：
+选择一个聊天平台和你的 Bot 对话，可以连接一个或多个：
 
 - [Telegram →](/botdrop-docs/zh/channels/telegram/)
 - [Discord →](/botdrop-docs/zh/channels/discord/)
 - [飞书 →](/botdrop-docs/zh/channels/feishu/)
 
-频道连接后，Bot 开始运行。它会在后台保持活跃，需要时自动重启。
+![Telegram 设置](/botdrop-docs/images/drive/16-telegram-empty.png)
+
+输入所需凭证，点击 **CONNECT & START**。
+
+![Telegram 已填写](/botdrop-docs/images/drive/17-telegram-filled.png)
+
+也可以点 **SKIP FOR NOW**，之后再配置频道。
+
+## 第四步：完成
+
+连接后，仪表盘显示网关状态。绿色表示运行中。
+
+![仪表盘](/botdrop-docs/images/drive/18-dashboard.png)
+
+在仪表盘中你可以：
+- 启动 / 停止 / 重启网关
+- 更换 AI 模型
+- 查看日志
+- 打开 Web UI

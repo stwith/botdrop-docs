@@ -3,32 +3,60 @@ title: Setup
 description: Configure your AI bot in BotDrop.
 ---
 
-BotDrop guides you through 4 steps to get your bot running.
+After granting permissions, BotDrop guides you through 4 steps.
 
-## Step 1: Auth
+## Step 1: Choose Your Agent
 
-Enter your AI provider API key. Supported providers:
+Select which bot framework to install. Tap **INSTALL** next to OpenClaw.
 
-- **Anthropic** — Get your key at [console.anthropic.com](https://console.anthropic.com/)
-- **OpenAI** — Get your key at [platform.openai.com](https://platform.openai.com/)
-- **Google Gemini** — Get your key at [aistudio.google.com](https://aistudio.google.com/)
-- **OpenRouter** — Get your key at [openrouter.ai](https://openrouter.ai/) (access 100+ models with one key)
+![Choose agent](/botdrop-docs/images/drive/11-choose-agent.png)
+
+BotDrop will automatically set up the environment, verify Node.js, and install OpenClaw. This takes about a minute.
+
+![Installing](/botdrop-docs/images/drive/12-installing.png)
+
+## Step 2: Choose Your AI Model
+
+Select an AI provider and enter your API key.
+
+![Choose model](/botdrop-docs/images/drive/13-choose-model.png)
+
+Tap **SELECT**, search for your provider (e.g. OpenRouter), and enter your API key.
+
+![Enter API key](/botdrop-docs/images/drive/15-api-key-clean.png)
+
+Supported providers:
+
+- **Anthropic** — [console.anthropic.com](https://console.anthropic.com/)
+- **OpenAI** — [platform.openai.com](https://platform.openai.com/)
+- **Google Gemini** — [aistudio.google.com](https://aistudio.google.com/)
+- **OpenRouter** — [openrouter.ai](https://openrouter.ai/) (100+ models with one key)
 - **Custom endpoint** — Any OpenAI-compatible API
 
-## Step 2: Agent
+## Step 3: Connect a Channel
 
-Pick which bot framework to install. Currently OpenClaw is supported, with more coming soon.
-
-## Step 3: Install
-
-BotDrop will automatically download and set up the bot framework, Node.js, and all dependencies. This takes a few minutes on first run.
-
-## Step 4: Channel
-
-Connect a chat platform so you can talk to your bot. Pick one:
+Pick a chat platform to talk to your bot. You can connect one or more:
 
 - [Telegram →](/botdrop-docs/channels/telegram/)
 - [Discord →](/botdrop-docs/channels/discord/)
 - [Feishu →](/botdrop-docs/channels/feishu/)
 
-Once a channel is connected, your bot starts running. It stays alive in the background and auto-restarts if needed.
+![Telegram setup](/botdrop-docs/images/drive/16-telegram-empty.png)
+
+Enter the required credentials and tap **CONNECT & START**.
+
+![Telegram filled](/botdrop-docs/images/drive/17-telegram-filled.png)
+
+You can also tap **SKIP FOR NOW** and configure channels later.
+
+## Step 4: Done
+
+Once connected, the dashboard shows your gateway status. Green means running.
+
+![Dashboard](/botdrop-docs/images/drive/18-dashboard.png)
+
+From the dashboard you can:
+- Start / Stop / Restart the gateway
+- Change the AI model
+- View logs
+- Open the Web UI

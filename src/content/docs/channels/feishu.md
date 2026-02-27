@@ -171,7 +171,7 @@ Click "Request Online Release".
 
 Open Feishu messages, find the approval notification, and tap "Approve".
 
-![Approve](/botdrop-docs/images/feishu/13-approve-in-feishu.png)
+<img class="phone" src="/botdrop-docs/images/feishu/13-approve-in-feishu.png" alt="Approve" />
 
 After approval, the status shows green "Published".
 
@@ -189,7 +189,7 @@ Fill in:
 
 Leave the **Feishu User ID** field empty for now.
 
-![BotDrop Feishu setup](/botdrop-docs/images/feishu/35-botdrop-feishu-empty.png)
+<img class="phone" src="/botdrop-docs/images/feishu/35-botdrop-feishu-empty.png" alt="BotDrop Feishu setup" />
 
 Tap **CONNECT & START**.
 
@@ -241,11 +241,11 @@ Search for your bot name in Feishu and send it a message. The bot will reply wit
 
 
 
-![Bot replies with User ID](/botdrop-docs/images/feishu/37-feishu-userid-reply.png)
+<img class="phone" src="/botdrop-docs/images/feishu/37-feishu-userid-reply.png" alt="Bot replies with User ID" />
 
 Copy the User ID, go back to BotDrop, and paste it into the **Feishu User ID** field.
 
-![BotDrop Feishu filled](/botdrop-docs/images/feishu/36-botdrop-feishu-filled.png)
+<img class="phone" src="/botdrop-docs/images/feishu/36-botdrop-feishu-filled.png" alt="BotDrop Feishu filled" />
 
 Tap **CONNECT & START** again. Done.
 

@@ -91,7 +91,7 @@ In BotDrop's Discord setup screen, fill in:
 2. **Discord Guild ID** — the server ID from Step 3
 3. **Discord Channel ID** — the channel ID from Step 3
 
-![BotDrop Discord setup](/botdrop-docs/images/discord/10-botdrop-discord-setup.jpg)
+<img class="phone" src="/botdrop-docs/images/discord/10-botdrop-discord-setup.jpg" alt="BotDrop Discord setup" />
 
 Tap **CONNECT & START**. Done.
 

@@ -13,13 +13,13 @@ description: 将 BotDrop Agent 连接到 Telegram。
 
 打开 Telegram，搜索 `@BotFather`，选择带蓝色认证标志的账号。
 
-![搜索 BotFather](/botdrop-docs/images/telegram/01-search-botfather.png)
+<img class="phone" src="/botdrop-docs/images/telegram/01-search-botfather.png" alt="搜索 BotFather" />
 
 ### 创建新 Bot
 
 给 BotFather 发送 `/newbot`。
 
-![/newbot 命令](/botdrop-docs/images/telegram/02-newbot-command.png)
+<img class="phone" src="/botdrop-docs/images/telegram/02-newbot-command.png" alt="/newbot 命令" />
 
 按提示操作：
 1. 输入 Bot 的**名称**（比如 "BotDrop AI"）
@@ -27,7 +27,7 @@ description: 将 BotDrop Agent 连接到 Telegram。
 
 BotFather 会回复你的 **Bot Token**。复制它。
 
-![Bot 创建成功](/botdrop-docs/images/telegram/03-set-bot-name.png)
+<img class="phone" src="/botdrop-docs/images/telegram/03-set-bot-name.png" alt="Bot 创建成功" />
 
 :::caution
 请妥善保管 Token，不要泄露或公开发布。
@@ -43,11 +43,11 @@ BotFather 会回复你的 **Bot Token**。复制它。
 
 给它发送 `/start`，它会回复你的 **User ID**。
 
-![Setup Bot User ID](/botdrop-docs/images/telegram/04-setup-bot-userid.png)
+<img class="phone" src="/botdrop-docs/images/telegram/04-setup-bot-userid.png" alt="Setup Bot User ID" />
 
 点击 User ID 复制，然后粘贴到 BotDrop 的 **Your User ID** 输入框。
 
-![Telegram 配置已填写](/botdrop-docs/images/telegram/05-telegram-filled.png)
+<img class="phone" src="/botdrop-docs/images/telegram/05-telegram-filled.png" alt="Telegram 配置已填写" />
 
 点击 **CONNECT & START**，搞定。
 

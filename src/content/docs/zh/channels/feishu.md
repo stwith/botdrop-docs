@@ -171,7 +171,7 @@ description: 将 BotDrop Agent 连接到飞书。
 
 打开飞书消息，找到审批通知，点击"通过"。
 
-![审批](/botdrop-docs/images/feishu/13-approve-in-feishu.png)
+<img class="phone" src="/botdrop-docs/images/feishu/13-approve-in-feishu.png" alt="审批" />
 
 审批通过后，状态显示绿色"已上线"。
 
@@ -189,7 +189,7 @@ description: 将 BotDrop Agent 连接到飞书。
 
 **Feishu User ID** 先留空。
 
-![BotDrop 飞书设置](/botdrop-docs/images/feishu/35-botdrop-feishu-empty.png)
+<img class="phone" src="/botdrop-docs/images/feishu/35-botdrop-feishu-empty.png" alt="BotDrop 飞书设置" />
 
 点击 **CONNECT & START**。
 
@@ -241,11 +241,11 @@ description: 将 BotDrop Agent 连接到飞书。
 
 
 
-![Bot 回复 User ID](/botdrop-docs/images/feishu/37-feishu-userid-reply.png)
+<img class="phone" src="/botdrop-docs/images/feishu/37-feishu-userid-reply.png" alt="Bot 回复 User ID" />
 
 复制 User ID，回到 BotDrop，粘贴到 **Feishu User ID** 输入框。
 
-![BotDrop 飞书已填写](/botdrop-docs/images/feishu/36-botdrop-feishu-filled.png)
+<img class="phone" src="/botdrop-docs/images/feishu/36-botdrop-feishu-filled.png" alt="BotDrop 飞书已填写" />
 
 再次点击 **CONNECT & START**，搞定。
 

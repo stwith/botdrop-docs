@@ -95,7 +95,7 @@ description: 将 BotDrop Agent 连接到 Discord。
 2. **Discord Guild ID** — 第三步的服务器 ID
 3. **Discord Channel ID** — 第三步的频道 ID
 
-![BotDrop Discord 设置](/botdrop-docs/images/discord/10-botdrop-discord-setup.jpg)
+<img class="phone" src="/botdrop-docs/images/discord/10-botdrop-discord-setup.jpg" alt="BotDrop Discord 设置" />
 
 点击 **CONNECT & START**，搞定。
 

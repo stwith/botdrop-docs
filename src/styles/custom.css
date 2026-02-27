@@ -1,9 +1,13 @@
-/* Constrain screenshot images */
+/* Screenshot styling */
 .sl-markdown-content img {
-	max-width: 400px;
 	height: auto;
 	border-radius: 8px;
 	border: 1px solid var(--sl-color-gray-4);
+}
+
+/* Phone screenshots: max 400px */
+.sl-markdown-content img.phone {
+	max-width: 400px;
 }
 
 /* Match botdrop.app dark-first style */

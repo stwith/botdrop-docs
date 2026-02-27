@@ -17,15 +17,13 @@ hero:
       variant: minimal
       attrs:
         target: _blank
-    - text: 📥 立即下载
-      link: https://botdrop.app
-      icon: external
-      variant: secondary
-      attrs:
-        target: _blank
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<div class="download-row">
+  <a href="https://botdrop.app" target="_blank" class="download-btn">📥 立即下载</a>
+</div>
 
 <CardGrid stagger>
   <Card title="📱 安卓直装，无需服务器">
@@ -42,7 +40,7 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
   </Card>
 </CardGrid>
 
-<div class="botdrop-footer">
+<footer class="botdrop-footer">
   <p><a href="https://botdrop.app" target="_blank">Homepage</a> · <a href="https://discord.gg/w8wdnMM6Vy" target="_blank">Discord</a> · <a href="https://x.com/botdropapp" target="_blank">X</a></p>
   <p>Built by BotDrop with ❤️</p>
-</div>
+</footer>

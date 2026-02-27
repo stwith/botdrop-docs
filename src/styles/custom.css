@@ -52,26 +52,38 @@
 	font-family: "Chiron GoRound TC", system-ui, sans-serif !important;
 }
 
-/* Splash page: push footer to bottom */
-[data-page-template="splash"] main {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+/* Download button row */
+.download-row {
+	text-align: center;
+	margin: 0.5rem 0 2.5rem;
 }
-[data-page-template="splash"] .sl-markdown-content {
-	flex: 1;
-	display: flex;
-	flex-direction: column;
+.download-btn {
+	display: inline-block;
+	padding: 0.65rem 2rem;
+	border-radius: 2rem;
+	background: var(--sl-color-accent);
+	color: var(--sl-color-white) !important;
+	font-weight: 600;
+	font-size: 1rem;
+	text-decoration: none !important;
+	transition: opacity 0.2s, transform 0.2s;
+}
+.download-btn:hover {
+	opacity: 0.9;
+	transform: translateY(-1px);
 }
 
-/* Footer */
+/* Footer: sticky to bottom */
 .botdrop-footer {
 	text-align: center;
-	padding: 2rem 1rem;
-	margin-top: auto;
+	padding: 3rem 1rem 2rem;
+	margin-top: 6rem;
 	border-top: 1px solid var(--sl-color-gray-4);
 	color: var(--sl-color-gray-2);
 	font-size: 0.85rem;
+}
+.botdrop-footer p {
+	margin: 0.3rem 0;
 }
 .botdrop-footer a {
 	color: var(--sl-color-accent);

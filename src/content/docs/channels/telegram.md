@@ -21,7 +21,9 @@ Send `/newbot` to BotFather.
 
 ![/newbot command](/botdrop-docs/images/telegram/02-newbot-command.png)
 
-Follow the prompts to set a username for your bot. The username must end with `bot` (e.g. `TetrisBot` or `tetris_bot`).
+Follow the prompts:
+1. Enter a **name** for your bot (e.g. "BotDrop AI")
+2. Enter a **username** (must end with `bot`, e.g. `TetrisBot` or `tetris_bot`)
 
 BotFather will respond with your **Bot Token**. Copy it.
 

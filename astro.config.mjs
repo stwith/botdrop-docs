@@ -26,13 +26,13 @@ export default defineConfig({
 				{
 					icon: 'discord',
 					label: 'Discord',
-					href: 'https://discord.gg/botdrop',
+					href: 'https://discord.gg/w8wdnMM6Vy',
 					attrs: { target: '_blank', rel: 'noopener noreferrer' },
 				},
 				{
 					icon: 'github',
 					label: 'GitHub',
-					href: 'https://github.com/botdropapp',
+					href: 'https://github.com/zhixianio/botdrop-android',
 					attrs: { target: '_blank', rel: 'noopener noreferrer' },
 				},
 				{
@@ -42,21 +42,41 @@ export default defineConfig({
 					attrs: { target: '_blank', rel: 'noopener noreferrer' },
 				},
 			],
+			customCss: ['./src/styles/custom.css'],
 			sidebar: [
 				{
-					label: 'Getting Started',
-					translations: { 'zh-CN': '开始使用' },
-					autogenerate: { directory: 'getting-started' },
+					label: 'Introduction',
+					translations: { 'zh-CN': '简介' },
+					slug: 'introduction',
 				},
 				{
-					label: 'Features',
-					translations: { 'zh-CN': '功能' },
-					autogenerate: { directory: 'features' },
+					label: 'Installation',
+					translations: { 'zh-CN': '安装' },
+					slug: 'installation',
 				},
 				{
-					label: 'Guides',
-					translations: { 'zh-CN': '使用指南' },
-					autogenerate: { directory: 'guides' },
+					label: 'Setup',
+					translations: { 'zh-CN': '设置' },
+					slug: 'setup',
+				},
+				{
+					label: 'Channels',
+					translations: { 'zh-CN': '聊天频道' },
+					items: [
+						{
+							label: 'Telegram',
+							slug: 'channels/telegram',
+						},
+						{
+							label: 'Discord',
+							slug: 'channels/discord',
+						},
+						{
+							label: 'Feishu',
+							translations: { 'zh-CN': '飞书' },
+							slug: 'channels/feishu',
+						},
+					],
 				},
 			],
 		}),

@@ -28,7 +28,7 @@ export default defineConfig({
 					lang: 'zh-CN',
 				},
 			},
-			favicon: '/favicon.png',
+			favicon: '/favicon.ico',
 			social: [
 				{
 					icon: 'discord',

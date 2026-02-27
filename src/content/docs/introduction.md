@@ -1,6 +1,19 @@
 ---
 title: Introduction
 description: What is BotDrop.
+hero:
+  tagline: One-tap install on mobile, AI Bots for everyone.
+  actions:
+    - text: Get Started
+      link: /botdrop-docs/installation/
+      icon: right-arrow
+      variant: primary
+    - text: Download APK
+      link: https://botdrop.app
+      icon: external
+      variant: minimal
+      attrs:
+        target: _blank
 ---
 
 BotDrop lets you run AI bots on your Android phone. No terminal, no server, no CLI. Just install the app, walk through a guided setup, and your bot is live.
@@ -15,15 +28,15 @@ BotDrop lets you run AI bots on your Android phone. No terminal, no server, no C
 
 BotDrop packages [OpenClaw](https://openclaw.ai/) into an Android app. OpenClaw is an AI agent framework that gives your bot tools, memory, and skills. BotDrop handles all the setup so you don't have to touch a terminal.
 
-## Supported bots
+## Supported Agents
 
-| Bot | Status |
-|-----|--------|
-| [OpenClaw](https://openclaw.ai/) | ✅ Supported |
-| [OwliaBot](https://owlia.bot/) | 🔜 Coming Soon |
-| [NanoClaw](https://github.com/gavrielc/nanoclaw) | 🔜 Coming Soon |
-| [nanobot](https://github.com/HKUDS/nanobot) | 🔜 Coming Soon |
+| Agent | Description | Status |
+|-------|-------------|--------|
+| [OpenClaw](https://openclaw.ai/) | Powerful AI agent platform with execution capabilities and long-term memory | ✅ Supported |
+| [OwliaBot](https://owlia.bot/) | A leaner, safer crypto-native OpenClaw 🦞 | 🔜 Coming Soon |
+| [NanoClaw](https://github.com/gavrielc/nanoclaw) | Minimal containerized Claude assistant 🦐 | 🔜 Coming Soon |
+| [nanobot](https://github.com/HKUDS/nanobot) | Lightweight local AI bot | 🔜 Coming Soon |
 
-## Next step
+## Next Step
 
 [Install BotDrop →](/botdrop-docs/installation/)

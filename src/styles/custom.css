@@ -1,3 +1,6 @@
+@import "@fontsource/chiron-goround-tc/400.css";
+@import "@fontsource/chiron-goround-tc/700.css";
+
 /* Screenshot styling */
 .sl-markdown-content img {
 	height: auto;
@@ -40,8 +43,6 @@
 }
 
 /* BotDrop brand font (Chiron GoRound TC) */
-@import "@fontsource/chiron-goround-tc/400.css";
-@import "@fontsource/chiron-goround-tc/700.css";
 
 /* Apply to site title and hero */
 .site-title,

@@ -1,10 +1,16 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import rehypeExternalLinks from 'rehype-external-links';
 
 export default defineConfig({
 	site: 'https://stwith.github.io',
 	base: '/botdrop-docs',
+	markdown: {
+		rehypePlugins: [
+			[rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],
+		],
+	},
 	integrations: [
 		starlight({
 			title: 'BotDrop',

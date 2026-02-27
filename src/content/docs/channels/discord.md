@@ -101,7 +101,7 @@ Tap **CONNECT & START**. Done.
 
 - The bot responds in the configured channel
 - You can restrict bot access using Discord's channel permissions
-- To add the bot to more channels, update the config in BotDrop
+- To add more channels, just ask your AI agent to configure them
 
 ## Troubleshooting
 

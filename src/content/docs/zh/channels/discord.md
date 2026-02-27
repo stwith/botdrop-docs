@@ -105,7 +105,7 @@ description: 将 BotDrop Agent 连接到 Discord。
 
 - Bot 在配置的频道中响应
 - 可以通过 Discord 频道权限控制 Bot 的访问
-- 要添加更多频道，在 BotDrop 中更新配置
+- 要添加更多频道，直接让 AI 帮你配置
 
 ## 常见问题
 

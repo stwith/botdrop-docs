@@ -21,9 +21,7 @@ description: 将 BotDrop Agent 连接到 Telegram。
 
 ![/newbot 命令](/botdrop-docs/images/telegram/02-newbot-command.png)
 
-按提示操作：
-1. 输入 Bot 的**显示名称**（比如 "BotDrop AI"）
-2. 输入 Bot 的**用户名**（必须以 `_bot` 结尾，比如 `my_botdrop_bot`）
+按提示为你的 Bot 设置用户名。用户名必须以 `bot` 结尾（比如 `TetrisBot` 或 `tetris_bot`）。
 
 BotFather 会回复你的 **Bot Token**。复制它。
 

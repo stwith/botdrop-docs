@@ -13,7 +13,7 @@ export default defineConfig({
 	},
 	integrations: [
 		starlight({
-			title: 'BotDrop',
+			title: 'BotDrop Docs',
 			logo: {
 				src: './src/assets/logo.svg',
 				replacesTitle: false,

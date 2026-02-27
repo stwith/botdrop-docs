@@ -11,7 +11,7 @@ description: 下载并安装 BotDrop。
 
 ## 要求
 
-- Android 10 或更高版本
+- Android 7 或更高版本
 - 至少 2 GB 可用存储（OpenClaw + Node.js 约占 500 MB）
 
 ## 安装

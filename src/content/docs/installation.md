@@ -11,7 +11,7 @@ Go to [botdrop.app](https://botdrop.app) and tap **Download APK**, or get it dir
 
 ## Requirements
 
-- Android 10 or later
+- Android 7 or later
 - At least 2 GB free storage (OpenClaw + Node.js takes ~500 MB)
 
 ## Install

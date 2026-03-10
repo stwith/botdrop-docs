@@ -14,6 +14,18 @@
 	max-width: min(400px, 100%);
 }
 
+/* Side-by-side phone screenshots */
+.phone-row {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	margin: 1rem 0;
+}
+.phone-row img.phone {
+	flex: 1 1 180px;
+	max-width: min(300px, 48%);
+}
+
 /* Match botdrop.app dark-first style */
 :root {
 	--sl-color-accent-low: #1a1a2e;

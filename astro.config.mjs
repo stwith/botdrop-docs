@@ -85,6 +85,22 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'Automation',
+					translations: { 'zh-CN': '自动化' },
+					items: [
+						{
+							label: 'Setup',
+							translations: { 'zh-CN': '配置' },
+							slug: 'automation',
+						},
+						{
+							label: 'Automation Skill',
+							translations: { 'zh-CN': '自动化技能' },
+							slug: 'automation-skill',
+						},
+					],
+				},
 			],
 		}),
 	],

@@ -8,11 +8,9 @@ Automation is an **exploratory feature**. You may encounter various issues:
 - Unstable execution, sometimes fails
 - The bot may act "dumb", tapping wrong spots or misunderstanding instructions
 - Compatibility varies across different apps
-- **Automation may trigger app security measures, risking account suspension**
-
 **Recommendations:**
 - Use a **spare Android phone** for automation to avoid affecting your main device
-- Use **secondary accounts** for testing to minimize risk if accounts get banned
+- Automation may trigger app security measures and risk account suspension, use **secondary accounts** for testing
 - Use smarter models (like Claude Sonnet/Opus, Codex-5.3) for better success rates
 - Create custom Skills for frequently used workflows, so the bot follows fixed steps instead of improvising each time
 :::

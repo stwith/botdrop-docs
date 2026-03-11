@@ -5,7 +5,7 @@ description: Frequently asked questions about BotDrop - mobile AI bot installer
 
 ## What is BotDrop?
 
-BotDrop is a free Android app that lets you install and run AI bots on your phone with one tap. It provides a visual interface to configure everything without coding.
+BotDrop is a free Android app that lets you install and run OpenClaw and other AI bots on your phone with one tap. It provides a visual interface to configure everything without coding.
 
 ## Do I need to root my phone?
 

@@ -5,7 +5,7 @@ description: BotDrop 常见问题解答 - 手机安装 OpenClaw
 
 ## BotDrop 是什么？
 
-BotDrop 是一款免费的 Android 应用，让你在手机上一键安装和运行 AI 机器人。提供可视化界面，无需编程即可配置。
+BotDrop 是一款免费的 Android 应用，让你在手机上一键安装和运行 OpenClaw 等 AI 机器人。提供可视化界面，无需编程即可配置。
 
 ## 需要 root 吗？
 

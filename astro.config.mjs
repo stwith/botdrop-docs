@@ -32,6 +32,35 @@ export default defineConfig({
 						gtag('config', 'G-181FMPJECK');
 					`,
 				},
+				// Structured Data - SoftwareApplication
+				{
+					tag: 'script',
+					attrs: { type: 'application/ld+json' },
+					content: JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "SoftwareApplication",
+						"name": "BotDrop",
+						"alternateName": "手机安装 OpenClaw",
+						"applicationCategory": "UtilitiesApplication",
+						"operatingSystem": "Android",
+						"description": "The easiest way to install OpenClaw on your phone. One-tap install AI bots on Android, no server needed.",
+						"url": "https://docs.botdrop.app",
+						"downloadUrl": "https://botdrop.app",
+						"softwareVersion": "0.2.8",
+						"inLanguage": ["en", "zh-CN"],
+						"author": {
+							"@type": "Organization",
+							"name": "BotDrop",
+							"url": "https://botdrop.app"
+						},
+						"offers": {
+							"@type": "Offer",
+							"price": "0",
+							"priceCurrency": "USD"
+						},
+						"keywords": "OpenClaw, AI bot, Android, mobile AI, telegram bot, 手机安装 OpenClaw"
+					}),
+				},
 			],
 			logo: {
 				src: './src/assets/logo.svg',

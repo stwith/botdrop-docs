@@ -5,7 +5,7 @@ description: Frequently asked questions about BotDrop - mobile AI bot installer
 
 ## What is BotDrop?
 
-BotDrop is a free Android app that lets you run AI bots directly on your phone. No server needed, no coding required. It's based on OpenClaw and provides a visual interface to configure everything.
+BotDrop is a free Android app that lets you install and run AI bots on your phone with one tap. It provides a visual interface to configure everything without coding.
 
 ## Do I need to root my phone?
 
@@ -13,11 +13,11 @@ No. BotDrop runs as a regular Android app and doesn't require root access.
 
 ## Do I need my own server?
 
-No! This is BotDrop's core advantage. The AI agent runs entirely on your phone. You only need an API key from an AI provider (like OpenRouter).
+No! BotDrop lets you configure API keys and connect to chat platforms directly on your phone, eliminating the need to rent servers or set up environments.
 
 ## What AI models are supported?
 
-BotDrop supports 100+ models including Claude, GPT-4, Gemini, DeepSeek, Llama, and more. You can use OpenRouter to access all of them with a single API key, or configure custom API endpoints.
+BotDrop supports 100+ models including Claude, GPT-4, Gemini, DeepSeek, Llama, and more. You can use various AI providers or configure custom API endpoints.
 
 ## Which chat platforms can I connect?
 
@@ -30,7 +30,7 @@ More platforms are in development.
 
 ## How much data does it use?
 
-Minimal. Text conversations use about 1-5KB per message. The main cost is the AI API calls, not mobile data.
+Minimal. Text conversations use about 1-5KB per message. The main cost is AI API fees, not mobile data.
 
 ## Does it work when my phone is locked?
 
@@ -38,17 +38,17 @@ Yes. BotDrop runs as a background service and continues responding to messages e
 
 ## Does it support iPhone?
 
-Not yet. BotDrop is Android-only for now. iOS version is on the roadmap.
+Currently Android only.
 
 ## How do I install OpenClaw on my phone?
 
-Just download the BotDrop APK from [botdrop.app](https://botdrop.app) and install it. BotDrop handles all the OpenClaw setup automatically through its visual interface.
+Download the BotDrop APK from [botdrop.app](https://botdrop.app), install it, and configure OpenClaw through the visual interface. The whole process takes just a few minutes.
 
 ## Is it free?
 
-Yes, BotDrop is completely free. You only pay for the AI API usage (to providers like OpenRouter, OpenAI, or Anthropic).
+Yes, BotDrop is completely free. You only pay for AI API usage.
 
-## What's the difference between BotDrop and running OpenClaw on a server?
+## What's the difference between BotDrop and running on a server?
 
 | | BotDrop | Server |
 |---|---|---|

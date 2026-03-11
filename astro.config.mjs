@@ -19,7 +19,7 @@ export default defineConfig({
 				{
 					tag: 'script',
 					attrs: {
-						src: 'https://www.googletagmanager.com/gtag/js?id=G-181FMPJECK',
+						src: 'https://www.googletagmanager.com/gtag/js?id=G-HRRN0NER9P',
 						async: true,
 					},
 				},
@@ -29,7 +29,7 @@ export default defineConfig({
 						window.dataLayer = window.dataLayer || [];
 						function gtag(){dataLayer.push(arguments);}
 						gtag('js', new Date());
-						gtag('config', 'G-181FMPJECK');
+						gtag('config', 'G-HRRN0NER9P');
 					`,
 				},
 				// Structured Data - SoftwareApplication

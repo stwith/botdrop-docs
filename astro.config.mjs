@@ -120,6 +120,11 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					label: 'FAQ',
+					translations: { 'zh-CN': '常见问题' },
+					slug: 'faq',
+				},
 			],
 		}),
 	],

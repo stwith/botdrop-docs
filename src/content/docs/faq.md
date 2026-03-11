@@ -1,27 +1,31 @@
 ---
 title: FAQ
-description: Frequently asked questions about BotDrop - mobile AI bot installer
+description: Frequently asked questions about BotDrop - the easiest way to install OpenClaw on mobile
 ---
 
 ## What is BotDrop?
 
-BotDrop is a free Android app that lets you install and run OpenClaw and other AI bots on your phone with one tap. It provides a visual interface to configure everything without coding.
+BotDrop is the easiest way to install OpenClaw on your phone. A free Android app that lets you install and run OpenClaw AI bots with one tap, featuring a visual interface with no coding required.
+
+## How do I install OpenClaw on my phone?
+
+Download the BotDrop APK from [botdrop.app](https://botdrop.app), install it, and configure OpenClaw through the visual interface. The whole process takes just a few minutes. No server needed, no Linux knowledge required.
 
 ## Do I need to root my phone?
 
-No. BotDrop runs as a regular Android app and doesn't require root access.
+No. BotDrop runs as a regular Android app and doesn't require root access to run OpenClaw.
 
 ## Do I need my own server?
 
-No! BotDrop lets you configure API keys and connect to chat platforms directly on your phone, eliminating the need to rent servers or set up environments.
+No! Traditional OpenClaw installation requires renting servers and setting up environments. BotDrop lets you configure API keys and connect to chat platforms directly on your phone, eliminating all that hassle.
 
 ## What AI models are supported?
 
-BotDrop supports 100+ models including Claude, GPT-4, Gemini, DeepSeek, Llama, and more. You can use various AI providers or configure custom API endpoints.
+OpenClaw through BotDrop supports 100+ models including Claude, GPT-4, Gemini, DeepSeek, Llama, and more. You can use various AI providers or configure custom API endpoints.
 
 ## Which chat platforms can I connect?
 
-Currently supported:
+OpenClaw on BotDrop currently supports:
 - Telegram
 - Discord
 - Feishu (Lark)
@@ -32,23 +36,19 @@ More platforms are in development.
 
 Minimal. Text conversations use about 1-5KB per message. The main cost is AI API fees, not mobile data.
 
-## Does it work when my phone is locked?
+## Does OpenClaw work when my phone is locked?
 
-Yes. BotDrop runs as a background service and continues responding to messages even when your screen is off.
+Yes. BotDrop runs as a background service and OpenClaw continues responding to messages even when your screen is off.
 
 ## Does it support iPhone?
 
 Currently Android only.
 
-## How do I install OpenClaw on my phone?
-
-Download the BotDrop APK from [botdrop.app](https://botdrop.app), install it, and configure OpenClaw through the visual interface. The whole process takes just a few minutes.
-
 ## Is it free?
 
 Yes, BotDrop is completely free. You only pay for AI API usage.
 
-## What's the difference between BotDrop and running on a server?
+## What's the difference between BotDrop and running OpenClaw on a server?
 
 | | BotDrop | Server |
 |---|---|---|
@@ -58,9 +58,9 @@ Yes, BotDrop is completely free. You only pay for AI API usage.
 | Configuration | Visual GUI | Edit YAML files |
 | Portability | Your pocket | Fixed location |
 
-## Can I use it for phone automation?
+## Can I use OpenClaw for phone automation?
 
-Yes! BotDrop has an automation feature that lets your AI control your phone - tapping, swiping, and interacting with apps. See the [Automation guide](/automation/) for details.
+Yes! BotDrop has an automation feature that lets OpenClaw control your phone - tapping, swiping, and interacting with apps. See the [Automation guide](/automation/) for details.
 
 ## Where can I get help?
 

@@ -14,6 +14,25 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'BotDrop Docs',
+			head: [
+				// Google Analytics
+				{
+					tag: 'script',
+					attrs: {
+						src: 'https://www.googletagmanager.com/gtag/js?id=G-181FMPJECK',
+						async: true,
+					},
+				},
+				{
+					tag: 'script',
+					content: `
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+						gtag('config', 'G-181FMPJECK');
+					`,
+				},
+			],
 			logo: {
 				src: './src/assets/logo.svg',
 				replacesTitle: false,

@@ -1,0 +1,24 @@
+# AI Search Crawlers (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+# All crawlers
+User-agent: *
+Allow: /
+
+Sitemap: https://docs.botdrop.app/sitemap-index.xml
+
+# Content Signals
+Content-Signal: search=yes,ai-input=yes,ai-train=no

@@ -1,0 +1,38 @@
+# BotDrop - Mobile AI Bot Installer
+
+## What is BotDrop?
+BotDrop is a free Android app that lets you install and run AI bots on your phone. No server required, no coding needed. Based on OpenClaw.
+
+## Key Features
+- One-tap APK installation on Android
+- Visual GUI configuration (no YAML editing)
+- 100+ AI models supported (Claude, GPT, Gemini, DeepSeek, etc.)
+- Connect to Telegram, Discord, Feishu
+- Phone automation capabilities (coming soon)
+
+## Why BotDrop?
+Traditional AI bot setup requires: server rental, Linux knowledge, terminal commands. BotDrop removes all barriers - just download the APK and configure through a visual interface.
+
+## Target Users
+- Non-technical users who want personal AI assistants
+- People who want to run AI bots without paying for servers
+- Anyone who wants to automate their phone with AI
+
+## Supported Platforms
+- Chat: Telegram, Discord, Feishu (Lark)
+- AI Models: OpenRouter (100+ models), custom API endpoints
+- OS: Android 8.0+
+
+## Download
+https://botdrop.app
+
+## Documentation
+https://docs.botdrop.app
+
+## Community
+- Discord: https://discord.gg/w8wdnMM6Vy
+- X/Twitter: https://x.com/botdropapp
+- GitHub: https://github.com/zhixianio/botdrop-android
+
+## Keywords
+手机安装 OpenClaw, mobile AI bot, Android AI assistant, run AI on phone, telegram bot without server, self-hosted AI mobile

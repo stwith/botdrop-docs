@@ -46,7 +46,7 @@ export default defineConfig({
 						"description": "The easiest way to install OpenClaw on your phone. One-tap install AI bots on Android, no server needed.",
 						"url": "https://docs.botdrop.app",
 						"downloadUrl": "https://botdrop.app",
-						"softwareVersion": "0.2.8",
+						"softwareVersion": "0.2.9",
 						"inLanguage": ["en", "zh-CN"],
 						"author": {
 							"@type": "Organization",
@@ -130,6 +130,11 @@ export default defineConfig({
 							label: 'Feishu',
 							translations: { 'zh-CN': '飞书' },
 							slug: 'channels/feishu',
+						},
+						{
+							label: 'QQ',
+							translations: { 'zh-CN': 'QQ 机器人' },
+							slug: 'channels/qq',
 						},
 					],
 				},

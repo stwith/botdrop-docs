@@ -1,6 +1,57 @@
 ---
 title: 常见问题
 description: BotDrop 常见问题解答 - 手机安装 OpenClaw 最简单的方式
+head:
+  - tag: script
+    attrs:
+      type: application/ld+json
+    content: |
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "BotDrop 是什么？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "BotDrop 是在手机上安装 OpenClaw 最简单的方式。一款免费的 Android 应用，让你一键安装和运行 OpenClaw AI 机器人，提供可视化界面，无需编程。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "如何在手机上安装 OpenClaw？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "从 botdrop.app 下载 BotDrop APK 并安装，然后通过可视化界面配置 OpenClaw，整个过程只需几分钟。不需要服务器，不需要懂 Linux。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "需要自己的服务器吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "不需要！传统方式安装 OpenClaw 需要租服务器、配环境。BotDrop 让你直接在手机上配置 API 密钥和连接聊天软件。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "支持哪些 AI 模型？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "OpenClaw 通过 BotDrop 支持 100+ 模型，包括 Claude、GPT-4、Gemini、DeepSeek、Llama 等。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "免费吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "是的，BotDrop 完全免费。你只需支付 AI API 使用费。"
+            }
+          }
+        ]
+      }
 ---
 
 ## BotDrop 是什么？

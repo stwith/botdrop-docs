@@ -1,6 +1,57 @@
 ---
 title: FAQ
 description: Frequently asked questions about BotDrop - the easiest way to install OpenClaw on mobile
+head:
+  - tag: script
+    attrs:
+      type: application/ld+json
+    content: |
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is BotDrop?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "BotDrop is the easiest way to install OpenClaw on your phone. A free Android app that lets you install and run OpenClaw AI bots with one tap, featuring a visual interface with no coding required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I install OpenClaw on my phone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Download the BotDrop APK from botdrop.app, install it, and configure OpenClaw through the visual interface. The whole process takes just a few minutes. No server needed, no Linux knowledge required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need my own server?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No! Traditional OpenClaw installation requires renting servers and setting up environments. BotDrop lets you configure API keys and connect to chat platforms directly on your phone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What AI models are supported?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "OpenClaw through BotDrop supports 100+ models including Claude, GPT-4, Gemini, DeepSeek, Llama, and more."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is BotDrop free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, BotDrop is completely free. You only pay for AI API usage."
+            }
+          }
+        ]
+      }
 ---
 
 ## What is BotDrop?

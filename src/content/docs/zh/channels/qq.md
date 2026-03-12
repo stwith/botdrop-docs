@@ -33,7 +33,7 @@ App Secret 只显示一次，请妥善保存。如果丢失，需要重置。
 ## 第三步：在 BotDrop 中配置
 
 1. 打开 BotDrop App
-2. 进入「连接 IM 频道」步骤（Step 3/4）
+2. 进入「连接 IM 频道」
 3. 选择「QQ」标签页
 4. 填入刚才复制的 App ID 和 App Secret
 5. 点击「连接并启动」

@@ -33,7 +33,7 @@ The App Secret is only shown once. Save it securely. If you lose it, you'll need
 ## Step 3: Configure in BotDrop
 
 1. Open BotDrop app
-2. Go to **Connect IM Channel** (Step 3/4)
+2. Go to **Connect IM Channel**
 3. Select the **QQ** tab
 4. Enter your App ID and App Secret
 5. Tap **Connect & Start**

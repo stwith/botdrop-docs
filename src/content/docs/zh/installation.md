@@ -1,7 +1,9 @@
 ---
 title: 安装
-description: 下载并安装 BotDrop。
+description: 手机安装 OpenClaw 的完整教程。下载 BotDrop APK，一键部署 AI Bot。
 ---
+
+BotDrop 是在手机安装 OpenClaw 最简单的方式。下载 APK，几分钟内完成部署。
 
 ## 下载
 

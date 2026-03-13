@@ -1,7 +1,9 @@
 ---
 title: Installation
-description: Download and install BotDrop on your Android device.
+description: How to install OpenClaw on your phone. Download BotDrop APK and deploy your AI bot in minutes.
 ---
+
+BotDrop is the easiest way to install OpenClaw on your phone. Download the APK and you're ready in minutes.
 
 ## Download
 

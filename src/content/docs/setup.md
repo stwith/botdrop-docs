@@ -1,9 +1,9 @@
 ---
 title: Setup
-description: Configure your AI bot in BotDrop.
+description: After you install OpenClaw on your phone, configure your AI bot in 4 steps.
 ---
 
-After granting permissions, BotDrop guides you through 4 steps.
+After you install OpenClaw on your phone, BotDrop guides you through 4 steps.
 
 ## Step 1: Choose Your Agent
 

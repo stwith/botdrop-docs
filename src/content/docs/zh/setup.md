@@ -1,9 +1,9 @@
 ---
 title: 设置
-description: 在 BotDrop 中配置你的 AI Bot。
+description: 手机安装 OpenClaw 后的配置指南。4 步完成 AI Bot 部署。
 ---
 
-授权完成后，BotDrop 引导你通过 4 步完成配置。
+手机安装 OpenClaw 后，BotDrop 引导你通过 4 步完成配置。
 
 ## 第一步：选择 Agent
 

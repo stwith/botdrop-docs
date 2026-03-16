@@ -30,6 +30,11 @@ BotDrop 自动配置环境、验证 Node.js 并安装 OpenClaw，大约需要 3~
 - **Anthropic** — [console.anthropic.com](https://console.anthropic.com/)
 - **OpenAI** — [platform.openai.com](https://platform.openai.com/)
 - **Google Gemini** — [aistudio.google.com](https://aistudio.google.com/)
+- **Kimi (月之暗面)** — [platform.moonshot.cn](https://platform.moonshot.cn/)
+- **通义千问** — [dashscope.console.aliyun.com](https://dashscope.console.aliyun.com/)
+- **MiniMax** — [platform.minimaxi.com](https://platform.minimaxi.com/)
+- **DeepSeek** — [platform.deepseek.com](https://platform.deepseek.com/)
+- **智谱 GLM** — [open.bigmodel.cn](https://open.bigmodel.cn/)
 - **OpenRouter** — [openrouter.ai](https://openrouter.ai/)（一个 Key 访问 100+ 模型）
 - **自定义接口** — 任何 OpenAI 兼容 API
 

@@ -6,6 +6,7 @@ import rehypeExternalLinks from 'rehype-external-links';
 export default defineConfig({
 	site: 'https://docs.botdrop.app',
 	// base removed for custom domain
+	server: { port: 4000 },
 	markdown: {
 		rehypePlugins: [
 			[rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],

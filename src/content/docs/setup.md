@@ -30,6 +30,11 @@ Supported providers:
 - **Anthropic** — [console.anthropic.com](https://console.anthropic.com/)
 - **OpenAI** — [platform.openai.com](https://platform.openai.com/)
 - **Google Gemini** — [aistudio.google.com](https://aistudio.google.com/)
+- **Kimi (Moonshot)** — [platform.moonshot.cn](https://platform.moonshot.cn/)
+- **Qwen (Tongyi)** — [dashscope.console.aliyun.com](https://dashscope.console.aliyun.com/)
+- **MiniMax** — [platform.minimaxi.com](https://platform.minimaxi.com/)
+- **DeepSeek** — [platform.deepseek.com](https://platform.deepseek.com/)
+- **Zhipu GLM** — [open.bigmodel.cn](https://open.bigmodel.cn/)
 - **OpenRouter** — [openrouter.ai](https://openrouter.ai/) (100+ models with one key)
 - **Custom endpoint** — Any OpenAI-compatible API
 

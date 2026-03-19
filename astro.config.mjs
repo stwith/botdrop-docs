@@ -16,6 +16,41 @@ export default defineConfig({
 		starlight({
 			title: 'BotDrop Docs',
 			head: [
+				// Page Agent - AI Assistant
+				{
+					tag: 'script',
+					attrs: {
+						src: 'https://cdn.jsdelivr.net/npm/page-agent@1.5.11/dist/iife/page-agent.iife.js',
+						crossorigin: 'true',
+					},
+				},
+				{
+					tag: 'script',
+					content: `
+						(function() {
+							const apiKey = '${process.env.PUBLIC_GEMINI_API_KEY ?? ''}';
+							if (!apiKey) {
+								console.log('[PageAgent] No API key configured, skipping initialization');
+								return;
+							}
+							
+							window.addEventListener('load', function() {
+								if (typeof PageAgent === 'undefined') {
+									console.error('[PageAgent] Library not loaded');
+									return;
+								}
+								
+								new PageAgent({
+									model: 'gemini-2.0-flash',
+									baseURL: 'https://generativelanguage.googleapis.com/v1beta/openai',
+									apiKey: apiKey,
+									language: document.documentElement.lang === 'zh-CN' ? 'zh-CN' : 'en',
+								});
+								console.log('[PageAgent] Initialized');
+							});
+						})();
+					`,
+				},
 				// Google Analytics
 				{
 					tag: 'script',
